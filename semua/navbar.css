@@ -1,15 +1,11 @@
 nav.header
-
 {
-
-	height: 45px;
-
-	background-color: #ffc000;
-
-  	padding: 4px;
-
-	z-index:300;
-
+height: 45px;
+  background-color: #ffc000;
+  padding: 4px;
+  z-index: 300;
+  position: absolute;
+  top: 0;
 }
 
 nav.header .logo{}
@@ -107,15 +103,11 @@ a.bottom-bordered
 {border-bottom:3px solid }
 
 .browse-area{
-
-  margin: 0 auto;
-
-  float: none;
-
-  background-color: white;
-
+background-color: white;
   min-height: 375px;
-
+  position: absolute;
+  z-index: 90;
+  top: 53px;
   }
 
 .browse-area .browse-text{
