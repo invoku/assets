@@ -1,0 +1,273 @@
+.kotak-kecil {
+display:inline-block;
+width:10px;
+height:10px;
+background:#7e1de7;
+margin:0 5px 0 15px;
+}
+
+.kotak-besar {
+width:30px;
+height:30px;
+display:inline-block;
+background:orange;
+margin:0 20px 0 0;
+}
+
+.kotak {
+border:1px solid #e5e5e5;
+display:block;
+background:#f5f5f5;
+margin:20px 0;
+padding:30px 35px;
+}
+
+.kotak span.judul {
+font-weight:400;
+display:block;
+font-size:26px;
+color:#666;
+background:#f5f5f5;
+padding:0 0 20px;
+}
+
+.kotak span.sub-judul {
+font-weight:300;
+}
+
+.kotak .isi {
+border:2px solid #d8d8d8;
+background:#fff;
+padding:20px;
+}
+
+.kotak .isi iframe {
+display:block;
+width:100%;
+box-shadow:none;
+border:none;
+overflow:hidden;
+}
+
+.kotak .isi span {
+text-align:center;
+font-style:italic;
+}
+
+.kotak-isi-pendahuluan img {
+max-width:100.5%;
+height:auto;
+margin-left:-2px;
+margin-top:-2px;
+}
+
+.kotak-isi-pendahuluan .atas-kotak {
+padding:15px 20px;
+}
+
+.kotak-isi-pendahuluan p {
+display:inline;
+line-height:0;
+font-size:16px;
+}
+
+.kotak-isi-pendahuluan p.isi {
+padding:5px 15px 20px;
+}
+
+.kotak .isi .isi-bahan {
+font-size:16px;
+}
+
+.kotak .isi-bahan {
+margin-bottom:35px;
+display:inline-block;
+width:100%;
+background:none;
+border:none;
+padding:0 0 0 20px;
+}
+
+.kotak .isi-bahan p {
+border-bottom:2.6px dotted #d8d8d8;
+font-size:16px;
+padding:6px!important;
+}
+
+.kotak .isi-langkah {
+margin-bottom:35px;
+display:inline-block;
+padding:15px 30px;
+}
+
+.kotak .isi-langkah p {
+padding-top:0!important;
+margin-bottom:0!important;
+padding-bottom:0!important;
+line-height:26px;
+}
+
+.kotak .isi .gambar {
+width:100%;
+display:block;
+}
+
+.kotak .isi .urutan {
+width:70px;
+margin-top:-10px;
+display:inline-block;
+font-size:50px;
+font-weight:700;
+color:#535353;
+float:left;
+text-align:center;
+font-style:normal;
+}
+
+.kotak .isi-tips p {
+font-size:16px;
+padding:6px!important;
+}
+
+.kotak .isi-catatan p {
+padding:9px!important;
+}
+
+.kotak .isi-referensi p {
+font-size:12px;
+}
+
+.kotak .isi ul {
+list-style-type:decimal;
+}
+
+.kotak .isi ul.referensi-list {
+list-style-type:disc;
+}
+
+.kotak .isi ul li {
+font-style:normal;
+}
+
+.kotak .isi ul.referensi-list li {
+font-style:italic;
+font-size:16px;
+}
+
+.kotak-isi-pendahuluan,.kotak .isi .gambar img {
+width:100%;
+}
+
+.kotak .isi-bahan ul li,.kotak .isi-bahan ol li {
+border-bottom:2.6px dotted #d8d8d8;
+font-size:16px;
+list-style-type:decimal;
+margin-left:20px;
+padding:6px!important;
+}
+
+.kotak .isi-langkah ol li,.kotak .isi-langkah ul li {
+border-bottom:2.6px dotted #d8d8d8;
+font-size:16px;
+list-style-type:decimal;
+padding:6px!important;
+}
+
+.kotak .isi-tips ul li,.kotak .isi-tips ol li {
+border-bottom:2.6px dotted #d8d8d8;
+font-size:16px;
+list-style-type:decimal;
+margin-left:26px;
+padding:6px!important;
+}
+
+.kotak .isi-catatan ul li,.kotak .isi-catatan ol li {
+list-style-type:decimal;
+padding:9px!important;
+}
+
+.kotak .isi-referensi ul li,.kotak .isi-referensi ol li {
+font-size:11px;
+list-style-type:disc;
+margin-left:10px;
+}
+/*pager */
+.mbt-pager { border-top: 2px dashed #ddd; border-bottom: 2px dashed #ddd;  margin-bottom: 10px;   overflow:hidden; padding:0px;} 
+.mbt-pager li.next { float: right; padding:0px; background:none; margin:0px;} 
+.mbt-pager li.next a { padding-left: 24px; }
+.mbt-pager li.previous { margin:0px -2px 0px 0px; float: left;  border-right:1px solid #ddd; padding:0px; background:none; 
+} 
+.mbt-pager li.previous a { padding-right: 24px;  }
+.mbt-pager li.next:hover, .mbt-pager li.previous:hover  {background:#8FB4D7; }
+.mbt-pager li { width: 50%; display: inline; float: left; text-align: center; } 
+.mbt-pager li a { position: relative; min-height: 77px; display: block; padding: 15px 46px 15px; outline:none; text-decoration:none;}
+.mbt-pager li i { color: #ccc; font-size: 18px; }
+.mbt-pager li a strong { display: block; font-size: 20px; color: #ccc; letter-spacing: 0.5px; font-weight: bold; text-transform: uppercase;}
+.mbt-pager li a span { font-size: 18px; color: #666;font-family: 'Slabo 27px' serif; margin:0px;} 
+.mbt-pager li a:hover span, 
+.mbt-pager li a:hover i { color: #ffffff; } 
+.mbt-pager li.previous i { float:left; margin-top:8%; margin-left:5%; } 
+.mbt-pager li.next i { float: right; 
+margin-top: 8%; 
+margin-right: 5%; }
+.mbt-pager li.next i, .mbt-pager li.previous i , 
+.mbt-pager li.next,  .mbt-pager li.previous{ 
+-webkit-transition-property: background color; -webkit-transition-duration: 0.4s; -webkit-transition-timing-function: ease-out; 
+-moz-transition-property: background color; -moz-transition-duration: 0.4s; -moz-transition-timing-function: ease-out; 
+-o-transition-property: background color; -o-transition-duration: 0.4s; -o-transition-timing-function: ease-out; 
+transition-property: background color; transition-duration: 0.4s; transition-timing-function: ease-out; }
+.fa-chevron-right {padding-right:0px;}
+
+.post{
+                  padding: 2.5% !important; 
+                  background: white !important;
+                }
+.post-timestamp {
+                  background-color: #E2E2E2;
+                  font-size: 1.2em;
+                  padding: 2px 10px;
+                  box-shadow: 6px 5px 0 #EDEDED;
+                  font-weight: 300;
+                }
+.post-title{
+                  font-weight: 400;
+                  font-family: 'Slabo 27px';
+                  color: rgb(34, 34, 34);
+                  font-size: 3em;
+                  padding: 3% 1%;
+		line-height: 1em;
+                }
+                .font-sizer{
+                  float: right;
+                  right: 0;
+                  padding: 5px 10px;
+                  font-size: 1em;
+                  color: #fff;
+                }
+                .plus
+                {
+                  background: rgb(191, 81, 255);
+                }
+                .minus
+                {
+                  background: rgb(147, 0, 234);
+                }
+            .img-home-thumb:hover
+              {
+            box-shadow: 1px 0px 10px #A9A8A8;
+            }
+.post img {
+     max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.thumbnail {
+    display: block;
+    padding: 0;
+    line-height: 1.428571429;
+    background-color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border-radius: 2px;
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.1);
+}
