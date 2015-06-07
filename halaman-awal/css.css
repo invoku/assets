@@ -1,0 +1,752 @@
+
+#halaman-awal-slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color:#494949;
+  height:500px
+}
+
+#halaman-awal-slider ul.halaman-awal-slider {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.halaman-awal-slider li.slider-background1
+{
+	background-image:url(../img/bg/1.jpg);
+}
+.halaman-awal-slider li.slider-background2
+{
+	background-image:url(../img/bg/2.jpeg);
+}
+.halaman-awal-slider li.slider-background3
+{
+	background-image:url(../img/bg/3.jpg);
+}
+.halaman-awal-slider li.slider-background4
+{
+	background-image:url(../img/bg/4.jpeg);
+}
+#halaman-awal-slider ul.halaman-awal-slider li.slideset:hover{
+background-size:130% auto;
+ }
+#halaman-awal-slider ul.halaman-awal-slider li.slideset {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  text-align: center;
+  background-size:100% auto;
+  transition:all 5s;
+}
+#halaman-awal-slider ul.halaman-awal-slider li.slideset p{
+  bottom: 0;
+  font-size: 4em;
+  color: white;
+  left: 0;
+  padding: 0;
+  margin: 30px;
+  opacity: .4;
+  position: absolute;
+  font-weight: 600;
+  text-align: left;
+	}
+
+/*form pencarian*/
+.pencarian{ 
+  margin:0;
+  margin-top: 300px;
+  padding: 0;
+  z-index: 70;
+  float: none;
+  position: absolute;
+  }
+ .pencarian span{  font-size: 36px;
+  color: white;font-family: serif;
+  font-style: italic;}
+.pencarian form{  z-index: 90;
+  display: block;
+  position: relative;
+  margin:0 auto;
+  float:none;}
+.pencarian form .input-cari{ 
+  border: none;
+  font-size: 36px;
+  padding-left: 6px;
+  background-color: transparent;
+  color: white;
+  z-index: 71;
+  border-bottom: 4px dotted white;
+  font-family: serif;
+  font-style: italic;
+  float: none;
+  }
+.pencarian form .input-cari:focus{ outline:none }
+.pencarian form .tombol-cari{
+  position: relative;
+  float: right;
+  background-color: transparent;
+  border: none;
+  padding:0;
+  }
+.pencarian form .tombol-cari img{height: 56px;width: auto;}
+
+/*judul*/
+.judul{  position: absolute;
+  z-index: 100;
+  display: block;
+  text-align: center;
+  margin-top: 30px;}
+.judul .logo{}
+.judul .logo img{  width: 256px;
+  height: auto;}
+.judul .slogan{  width: 58%;
+  margin: 0 auto;}
+.judul .slogan h1{display: inline;
+  color: white;
+  font-weight: 300;
+  font-size:2em}
+
+/*FOLLOW*/
+.follow{  z-index: 110;
+  position: absolute;
+  right: 0;
+  color: white;
+  display: block;
+  margin-top: -70px;}
+  .follow .text{  background-color: rgb(33, 104, 255);
+  padding: 5px 10px;
+  font-weight: bold;
+  float: right;
+  display: inline-block;}
+.follow .sosial{  float: right;
+  padding: 5px 10px;}
+ 
+/*  kategory slider */
+#kategori-slider{  height: 248px;
+  background-color: rgb(60, 60, 60);  margin-left: 54px;
+  }
+#kategori-slider .slide{
+	  height: 200px;
+      margin: 20px;
+      border-radius: 8px;
+      box-shadow: inset 0px -60px 100px rgba(0, 0, 0, 0.9);
+	}
+}
+#kategori-slider a{ }
+#kategori-slider span{position: absolute;
+  bottom: 34px;
+  margin-left: 18px;
+  font-size: 36px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.59); 
+  text-transform: capitalize;
+  }
+#kategori-slider .slide1{background-image:url('../img/gambar-400/agama.jpg');}
+#kategori-slider .slide2{background-image:url('../img/gambar-400/edu.jpg');}
+#kategori-slider .slide3{background-image:url('../img/gambar-400/eko.jpg');}
+span.judul-kategori-slider
+{
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  color: white;
+  z-index: 20;
+  font-size: 40px;
+  height: 56px;
+  width: 229px;
+  background-color: rgb(255, 184, 0);
+  margin-top: 96px;
+  left: -97px;
+  padding-left: 19px;
+  text-transform: uppercase;
+  font-weight: lighter;	
+}
+
+/*buku*/
+
+.buku {  background-color: rgb(150, 108, 60);position:relative;}
+.buku .buku-header{padding:10px 0}
+  .buku span.judul-buku{  font-size: 20px;
+  color: white;
+  font-weight: 700;  margin-left: 10px;}
+  .buku span.trend-buku{}
+  .buku span.trend-buku a{font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;}
+  .buku span.lagi{}
+.buku .isi-buku{min-height:300px;  background-color: rgb(113, 81, 44);}
+
+/*jelajah*/
+.jelajah
+{
+  text-align: center;
+  background-image:url('../img/bg/pin.jpg');
+  background-repeat: repeat;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-bottom: 100px;
+  box-shadow: inset 0 -67px 60px rgba(0, 0, 0, 0.55);
+  }
+  .jelajah .area-jelajah{
+  margin: 0 auto;
+  float: none;}
+  .jelajah .judul-explore{  padding: 50px 0;
+  text-align: center;
+  display: block;
+  font-size: 40px;
+  position: relative;
+  float: left;
+  width: 100%;  
+  color: white;
+  }
+.jelajah span.cat-jelajah{display: inline-block;
+  padding: 8px 30px;
+  margin: 15px 20px;
+  width: 190px;
+  border-radius: 6px;}
+.jelajah h2{}
+.jelajah h2 a{  color: white;
+  text-decoration: none;text-transform: capitalize;}
+.jelajah .agama {background-color: #f4d24a;}
+.jelajah .edukasi {background-color:#f58e4b;}
+.jelajah .ekonomi {background-color:#eb4e3f ;}
+.jelajah .hobi {background-color:#4dd3b8 ;}
+.jelajah .hiburan {background-color:#ea999f ;}
+.jelajah .gayahidup {background-color:#ff64c0 ;}
+.jelajah .kehidupan {background-color:#d589d4 ;}
+.jelajah .kendaraan {background-color:#9cacc3 ;}
+.jelajah .kerja {background-color:#d3b184 ;}
+.jelajah .elektronik {background-color:#67b9de ;}
+.jelajah .lezat {background-color:#b7d657 ;}
+.jelajah .kesehatan {background-color:#5ad88f ;}
+.jelajah .traveling {background-color:#60a2a1 ;}
+.jelajah .rumah {background-color:#7e507e ;}
+div.jelajah 
+{ 
+    animation:myanim 360s;
+    -webkit-animation:myanim 160s infinite;
+}
+@keyframes myanim {
+    0% {
+        background-position:0 0;
+    }
+    50% {
+        background-position:0 -5000px;
+    }
+    100% {
+        background-position:0 0;
+    }
+}
+
+@-webkit-keyframes myanim
+/* Safari and Chrome */
+ {
+    0% {
+        background-position:0 0;
+    }
+    50% {
+        background-position:0 -5000px;
+    }
+    100% {
+        background-position:0 0;
+    }
+}
+/*footer*/
+footer{background-color: black;
+  position: relative;
+  display: block;
+  width: 100%;}
+footer .hakcipta{float: left;}
+footer .hakcipta p{color: grey;
+  padding: 0 10px;
+  font-size: 12px;}
+footer .link{float: right;}
+footer .link span{float: left;}
+footer .link span h4{  padding: 7px;
+  margin: 5px 0;}
+footer .link span a{font-size: 12px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(39, 39, 39);
+  padding: 4px 7px;
+  border-radius: 2px;}
+  
+  /* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+@charset 'UTF-8';
+
+/* Slider */
+
+/* Arrows */
+
+.slick-prev,
+
+.slick-next
+
+{
+
+    font-size: 0;
+
+    line-height: 0;
+
+
+
+    position: absolute;
+
+    top: 50%;
+
+
+
+    display: block;
+
+
+
+    width: 20px;
+
+    height: 20px;
+
+    margin-top: -10px;
+
+    padding: 0;
+
+
+
+    cursor: pointer;
+
+
+
+    color: transparent;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+}
+
+.slick-prev:hover,
+
+.slick-prev:focus,
+
+.slick-next:hover,
+
+.slick-next:focus
+
+{
+
+    color: transparent;
+
+    outline: none;
+
+    background: transparent;
+
+}
+
+.slick-prev:hover:before,
+
+.slick-prev:focus:before,
+
+.slick-next:hover:before,
+
+.slick-next:focus:before
+
+{
+
+    opacity: 1;
+
+}
+
+.slick-prev.slick-disabled:before,
+
+.slick-next.slick-disabled:before
+
+{
+
+    opacity: .25;
+
+}
+
+
+
+.slick-prev:before,
+
+.slick-next:before
+
+{
+
+    font-family: 'slick';
+
+    font-size: 20px;
+
+    line-height: 1;
+
+
+
+    opacity: .75;
+
+    color: white;
+
+
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+.slick-prev
+
+{
+
+    left: -25px;
+
+}
+
+[dir='rtl'] .slick-prev
+
+{
+
+    right: -25px;
+
+    left: auto;
+
+}
+
+.slick-prev:before
+
+{
+
+    content: '←';
+
+}
+
+[dir='rtl'] .slick-prev:before
+
+{
+
+    content: '→';
+
+}
+
+
+
+.slick-next
+
+{
+
+    right: -25px;
+
+}
+
+[dir='rtl'] .slick-next
+
+{
+
+    right: auto;
+
+    left: -25px;
+
+}
+
+.slick-next:before
+
+{
+
+    content: '→';
+
+}
+
+[dir='rtl'] .slick-next:before
+
+{
+
+    content: '←';
+
+}
+
+
+
+
+
+.slick-dots
+
+{
+
+    position: absolute;
+
+    bottom:0;
+
+
+
+    display: block;
+
+
+
+    width: 100%;
+
+    padding: 0;
+
+
+
+    list-style: none;
+
+
+
+    text-align: center;
+
+}
+
+.slick-dots li
+
+{
+
+    position: relative;
+
+
+
+    display: inline-block;
+
+
+
+    width: 20px;
+
+    height: 20px;
+
+    margin: 0 5px;
+
+    padding: 0;
+
+
+
+    cursor: pointer;
+
+}
+
+.slick-dots li button
+
+{
+
+    font-size: 0;
+
+    line-height: 0;
+
+
+
+    display: block;
+
+
+
+    width: 20px;
+
+    height: 20px;
+
+    padding: 5px;
+
+
+
+    cursor: pointer;
+
+
+
+    color: transparent;
+
+    border: 0;
+
+    outline: none;
+
+    background: transparent;
+
+}
+
+.slick-dots li button:hover,
+
+.slick-dots li button:focus
+
+{
+
+    outline: none;
+
+}
+
+.slick-dots li button:hover:before,
+
+.slick-dots li button:focus:before
+
+{
+
+    opacity: 1;
+
+}
+
+.slick-dots li button:before
+
+{
+
+  font-family: monospace;
+
+  font-size: 13px;
+
+  line-height: 20px;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 20px;
+
+  height: 20px;
+
+  content: 'o';
+
+  text-align: center;
+
+  opacity: .25;
+
+  color: white;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.slick-dots li.slick-active button:before
+
+{
+
+    opacity: .75;
+
+    color: white;
+
+}
+
