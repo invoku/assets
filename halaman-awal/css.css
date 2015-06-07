@@ -148,9 +148,20 @@ background-size:130% auto;
   color: rgba(255, 255, 255, 0.59); 
   text-transform: capitalize;
   }
-#kategori-slider .slide1{background-image:url('../img/gambar-400/agama.jpg');}
-#kategori-slider .slide2{background-image:url('../img/gambar-400/edu.jpg');}
-#kategori-slider .slide3{background-image:url('../img/gambar-400/eko.jpg');}
+#kategori-slider .slide1{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023486/e41d2f3c-0cc2-11e5-9c12-fb73e2a46581.jpg');}
+#kategori-slider .slide2{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023487/e421d71c-0cc2-11e5-86c2-c1ceac46e6b7.jpg');}
+#kategori-slider .slide3{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023488/e4256dc8-0cc2-11e5-94ad-31c512e56033.jpg');}
+#kategori-slider .slide4{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023498/e4987de0-0cc2-11e5-973c-c1d19ce60685.jpg');}
+#kategori-slider .slide5{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023491/e45d03a0-0cc2-11e5-8d55-2a83b35ee312.jpg');}
+#kategori-slider .slide6{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023499/e50fbe78-0cc2-11e5-98f6-59e1e5d67765.jpg');}
+#kategori-slider .slide7{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023489/e4290f28-0cc2-11e5-950f-5af94aec6cfd.jpg');}
+#kategori-slider .slide8{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023490/e42def3e-0cc2-11e5-8f1a-0351fd256a6e.jpg');}
+#kategori-slider .slide9{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023492/e461d876-0cc2-11e5-9b2d-060005ac4e25.jpg');}
+#kategori-slider .slide10{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023493/e465d084-0cc2-11e5-8875-9a453246c042.jpg');}
+#kategori-slider .slide11{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023497/e4923d9a-0cc2-11e5-98fe-4d5bebebbd94.jpg');}
+#kategori-slider .slide12{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023494/e469f808-0cc2-11e5-916f-8b4823f05fc0.jpg');}
+#kategori-slider .slide13{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023491/e45d03a0-0cc2-11e5-8d55-2a83b35ee312.jpg');}
+#kategori-slider .slide14{background-image:url('https://cloud.githubusercontent.com/assets/11361401/8023496/e48eaab8-0cc2-11e5-9d69-f13332bc607d.jpg');}
 span.judul-kategori-slider
 {
   position: absolute;
