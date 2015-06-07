@@ -1,25 +1,3 @@
-#list-main {
-    margin: 0 auto;
-}
-.post img {
-     max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-.thumbnail {
-    display: block;
-    padding: 0;
-    line-height: 1.428571429;
-    background-color: #fff;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    border-radius: 2px;
-    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.1);
-}
-.homapge-thumb {
-  width: 290px;
-  margin: 5px 0;
-  float: left;
 /* =============================================================================
    icon
    ========================================================================== */
@@ -400,7 +378,29 @@ a, a:visited, a:hover, a:active {
    Tambahan / add ons
 
    ========================================================================== */
-
+#list-main {
+    margin: 0 auto;
+}
+.post img {
+     max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.thumbnail {
+    display: block;
+    padding: 0;
+    line-height: 1.428571429;
+    background-color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border-radius: 2px;
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.1);
+}
+.homapge-thumb {
+  width: 290px;
+  margin: 5px 0;
+  float: left;
+}
 /* masonry */
 
 .masonry, .masonry .masonry-brick {
@@ -470,17 +470,6 @@ a, a:visited, a:hover, a:active {
   line-height: 1.2em;
 
 }
-
-.homapge-thumb {
-
-  width: 290px;
-
-  margin: 5px 0;
-
-  float: left;
-
-}
-
 .post {
 color: #666666;
 font: 14px/1.428571429 Roboto, sans-serif;
@@ -505,147 +494,3 @@ img.alignleft {display: inline; margin: 0px 20px 10px 0px;}
 .alignleft {float: left;}
 .alignright {float: right;}
 .post-footer-line-1{display:none;}
-
-/* =============================================================================
-
-   INDEX WARNA
-
-   ========================================================================== */
-
-.agama-color{color:#f4d34a !important; }
-
-.agama-background-color{background-color:#f4d34a !important; }
-
-.agama-background-image{background-image:url(''); }
-
-.agama-hover:hover{background-color:#f4d34a !important; }
-
-
-
-.edukasi-color{color:#f48e4a !important; }
-
-.edukasi-background-color{background-color:#f48e4a !important;  }
-
-.edukasi-background-image{background-image:url(''); }
-
-.edukasi-hover:hover{background-color:#f48e4a !important; }
-
-
-
-.ekonomi-color{color:#eb4e3f !important; }
-
-.ekonomi-background-color{background-color:#eb4e3f !important; }
-
-.ekonomi-background-image{background-image:url(''); }
-
-.ekonomi-hover:hover{background-color:#eb4e3f !important; }
-
-
-
-.hobi-color{color:#eb4e3f !important; }
-
-.hobi-background-color{background-color:#eb4e3f !important;  }
-
-.hobi-background-image{background-image:url(''); }
-
-.hobi-hover:hover{background-color:#eb4e3f !important; }
-
-
-
-.hiburan-color{color:#ea9a9f !important; }
-
-.hiburan-background-color{background-color:#ea9a9f !important; }
-
-.hiburan-background-image{background-image:url(''); }
-
-.hiburan-hover:hover{background-color:#ea9a9f !important; }
-
-
-
-.gayahidup-color{color:#ea9a9f !important; }
-
-.gayahidup-background-color{background-color:#ea9a9f !important; }
-
-.gayahidup-background-image{background-image:url(''); }
-
-.gayahidup-hover:hover{background-color:#ea9a9f !important; }
-
-
-
-.kehidupan-color{color:#d589d5 !important; }
-
-.kehidupan-background-color{background-color:#d589d5 !important; }
-
-.kehidupan-background-image{background-image:url(''); }
-
-.kehidupan-hover:hover{background-color:#d589d5 !important; }
-
-
-
-.kendaraan-color{color:#9bacc3 !important; }
-
-.kendaraan-background-color{background-color:#9bacc3 !important; }
-
-.kendaraan-background-image{background-image:url(''); }
-
-.kendaraan-hover:hover{background-color:#9bacc3 !important; }
-
-
-
-.kerja-color{color:#d4b184 !important; }
-
-.kerja-background-color{background-color:#d4b184 !important; }
-
-.kerja-background-image{background-image:url(''); }
-
-.kerja-hover:hover{background-color:#d4b184 !important; }
-
-
-
-.pc-color{color:#68b9de !important; }
-
-.pc-background-color{background-color:#68b9de !important; }
-
-.pc-background-image{background-image:url(''); }
-
-.pc-hover:hover{background-color:#68b9de !important; }
-
-
-
-.lezat-color{color:#b7d557 !important; }
-
-.lezat-background-color{background-color:#b7d557 !important;  }
-
-.lezat-background-image{background-image:url(''); }
-
-.lezat-hover:hover{background-color:#b7d557 !important; }
-
-
-
-.sehat-color{color:#5bd890 !important; }
-
-.sehat-background-color{background-color::#5bd890 !important; }
-
-.sehat-background-image{background-image:url(''); }
-
-.sehat-hover:hover{background-color::#5bd890 !important; }
-
-
-
-.rumah-color{color:#7e507e !important; }
-
-.rumah-background-color{background-color:#7e507e !important; }
-
-.rumah-background-image{background-image:url(''); }
-
-.rumah-hover:hover{background-color:#7e507e !important; }
-
-
-
-.traveling-color{color:#5fa2a1 !important; }
-
-.traveling-background-color{background-color:#5fa2a1 !important; }
-
-.traveling-background-image{background-image:url(''); }
-
-.traveling-hover:hover{background-color:#5fa2a1 !important; }
