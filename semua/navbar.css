@@ -1,0 +1,395 @@
+nav.header
+
+{
+
+	height: 45px;
+
+	background-color: #ffc000;
+
+  	padding: 4px;
+
+	z-index:300;
+
+}
+
+nav.header .logo{}
+
+nav.header img{  margin: 3px;}
+
+nav.header .cari{}
+
+nav.header form{}
+
+nav.header form .sebelum-cari{
+
+  background-color: #c39e2c;
+
+  border: none;
+
+  margin: 3px 0px;
+
+  font-size: 19px;
+
+  color: #fff;
+
+  padding: 7px 11px 7px 14px;
+
+  border-radius: 4px 0 0 4px;
+
+}
+
+nav.header form .input-cari{ 
+
+  border: none;
+
+  padding: 7px;
+
+  padding-left: 16px;
+
+  margin-left: -6px;
+
+  font-size: 19px;
+
+  background-color: #FFDA6C;
+
+  border-radius: 0 4px 4px 0;
+
+  color: #5E5E5E;
+
+  float:none;
+
+  }
+
+  nav.header form .input-cari:focus,nav.header form .tombol-cari:focus{ outline:none; border:none; }
+
+nav.header form .tombol-cari{
+
+  right: 65px;
+
+  position: relative;
+
+  top: 9px;
+
+  float: right;
+
+  background-color: transparent;
+
+  border: none;
+
+  padding-right:15px;
+
+  font-size: 25px;
+
+  color: white;
+
+  }
+
+nav.header form .tombol-cari img{height: 18px;width: auto;}
+
+nav.header .browse{float:right;}
+
+nav.header .browse a{float: right;padding: 0 5px;text-decoration: none;font-size: 18px;color: white;}
+
+nav.header .browse a i{   font-size: 28px;
+
+  padding: 5px;
+
+  margin: 4px;
+
+  vertical-align: middle;}
+
+
+
+/*BROWSE AREA*/
+
+a.bottom-bordered
+
+{border-bottom:3px solid }
+
+.browse-area{
+
+  margin: 0 auto;
+
+  float: none;
+
+  background-color: white;
+
+  min-height: 375px;
+
+  }
+
+.browse-area .browse-text{
+
+font-size: 2.5em;
+
+  margin: 5px 10px;
+
+  float: left;
+
+  color: #565656;}
+
+.browse-area .browse-kategori
+
+	{
+
+  padding-left: 32%;
+
+  padding-right: 32%;
+
+  padding-bottom: 3px;
+
+  display: inline;
+
+  position: relative;
+
+  float: none;
+
+  top: 25px;
+
+  border-bottom: 1px solid silver;
+
+	}
+
+.browse-area .browse-kategori a
+
+	{
+
+	text-decoration: none;
+
+  color: #708090;
+
+  font-size: 18px;
+
+  padding: 0 10px;
+
+	}
+
+.browse-area .browse-kolom1{  
+
+  display: block;
+
+  border-right: 1px solid #C0C0C0;
+
+  margin-right: -1px;
+
+  margin-bottom: 5px;
+
+	}
+
+.browse-area .browse-kolom1 .browse-forum{
+
+	background-color: slategray;
+
+  margin: 30px 35px;
+
+  padding: 30px;
+
+  text-align: center;
+
+  border-radius: 6px;
+
+  font-size: 20px;
+
+  color: white;}
+
+.browse-area .browse-kolom1 .browse-tag{
+
+	background-color: slategray;
+
+  margin: 30px 35px;
+
+  padding: 30px;
+
+  text-align: center;
+
+  border-radius: 6px;
+
+  font-size: 20px;
+
+  color: white;}
+
+ .browse-area .browse-kolom2 {}
+
+ .browse-area .browse-kolom2 .subkolom2{float:left;}
+
+ .browse-area .browse-kolom2 ul{  position: relative;
+
+  padding: 0;
+
+  margin: 0;
+
+  list-style-type: none;
+
+  float: left;  width: 100%;}
+
+  .browse-area .browse-kolom2 ul.browse-sub
+
+  { position: absolute;
+
+  background-color: yellowgreen;
+
+  z-index: 20;
+
+  margin-top: -36px;
+
+  height: 100%;
+
+  display:none;
+
+  top: 36px;
+
+   }
+
+ .browse-area .browse-kolom2 ul.browse-sub a
+
+   {color:white; }
+
+.browse-area i{
+
+font-size: 28px;
+
+  display: inline-block;
+
+  margin-top: -1px;
+
+  position: absolute;
+
+  left: 5px;
+
+   }
+
+ .browse-area .browse-kolom2 li{  
+
+ padding: 7px 28px 7px 28px;
+
+  display: block;}
+
+ .browse-area .browse-kolom2 a{ 
+
+  text-decoration: none;
+
+  color: #555;
+
+  font-size: 18px;}
+
+  .browse-area .browse-kolom3{
+
+	  border-left:1px solid;
+
+	  margin-left:-1px;
+
+	  }
+
+  .browse-area .area-browse-bawah{
+
+  background-color: #e8e8f0;
+
+  border-radius: 0px 0px 6px 6px;}
+
+  .browse-area .area-browse-bawah a{ 
+
+  padding: 10px 12px 15px;
+
+  float: left;
+
+  text-decoration: none;
+
+  color: black;
+
+  font-weight: bold;
+
+  font-size: 12px;
+
+  }
+
+#browse-area-buku
+
+{
+
+	  display:none;
+
+}
+
+.browse-buku-area{  
+
+width: 100%;
+
+  display: block;
+
+  overflow-y: overlay;
+
+  overflow:auto;
+
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
+  height: 273px;}
+
+.browse-buku-area span
+
+{ 
+
+display: inline-block;
+
+  text-align: center;
+
+}
+
+ .browse-buku-area span a{   text-decoration: none;
+
+  text-transform: uppercase;
+
+  padding: 16%;
+
+  display: block;
+
+  margin: 15px;}
+
+ 
+
+ /* TERBARU AREA */
+
+ .terbaru-area{
+
+	   position: fixed;
+
+  top: 53px;
+
+  background-color: #797e91;
+
+  height: 100%;
+
+  min-width: 250px;
+
+  right: 0;
+
+  z-index: 200;
+
+  display:none;
+
+	 }
+
+.terbaru-area span{
+
+  display: block;
+
+  font-size: 40px;
+
+  padding: 15px;
+
+  background-color: #565c6c;
+
+  color: white;
+
+	}
+
+    
+
+.home{
+
+  margin: 5px 8px;
+
+  position: absolute;
+
+  color: white;
+
+ }
