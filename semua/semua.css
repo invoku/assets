@@ -33,7 +33,7 @@ body { margin: 0; font-size: 100%; line-height: 1.231; }
 
 
 
-body, button, input, select, textarea { font-family: sans-serif; }
+body, button, input, select, textarea { font: 14px/1.428571429 Roboto, sans-serif; }
 
 ::selection { text-shadow: none; background-color: highlight; color: highlighttext; }
 
@@ -398,7 +398,7 @@ a, a:visited, a:hover, a:active {
 }
 .homapge-thumb {
   width: 290px;
-  margin: 5px 0;
+  margin: 10px;
   float: left;
 }
 /* masonry */
