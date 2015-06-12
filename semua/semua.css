@@ -401,6 +401,9 @@ a, a:visited, a:hover, a:active {
   margin: 5px 10px;
   float: left;
 }
+.ukuran-1{width:20%;}
+.ukuran-2{width:32%;}
+.ukuran-3{width:50%;}
 /* masonry */
 
 .masonry, .masonry .masonry-brick {
