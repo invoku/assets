@@ -398,7 +398,7 @@ a, a:visited, a:hover, a:active {
 }
 .homapge-thumb {
   width: 290px;
-  margin: 10px;
+  margin: 5px 10px;
   float: left;
 }
 /* masonry */
@@ -445,17 +445,7 @@ a, a:visited, a:hover, a:active {
 
 }
 
-
-
-.post img {
-
-    max-width: 100%;
-
-    height: auto;
-
-}
-
-.jqmaintitle a {
+.jqmaintitle h1 {
 
   color: #2c3e50 !important;
 
@@ -468,7 +458,7 @@ a, a:visited, a:hover, a:active {
   font-family: 'Slabo 27px', serif;
 
   line-height: 1.2em;
-
+margin:0;
 }
 .post {
 color: #666666;
