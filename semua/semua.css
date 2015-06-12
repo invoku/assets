@@ -447,19 +447,16 @@ a, a:visited, a:hover, a:active {
     transition-property: left, right, top;
 
 }
-.jqmaintitle h1{margin:0;}
+.jqmaintitle h1{
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
 .jqmaintitle h1 a{
-
   color: #2c3e50 !important;
-
   display: block;
-
   padding-bottom: 10px;
-
-  font-size: 1.6em;
-
   font-family: 'Slabo 27px', serif;
-
   line-height: 1.2em;
 }
 .post {
