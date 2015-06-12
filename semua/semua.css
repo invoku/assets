@@ -444,8 +444,8 @@ a, a:visited, a:hover, a:active {
     transition-property: left, right, top;
 
 }
-
-.jqmaintitle h1 {
+.jqmaintitle h1{margin:0;}
+.jqmaintitle h1 a{
 
   color: #2c3e50 !important;
 
@@ -458,7 +458,6 @@ a, a:visited, a:hover, a:active {
   font-family: 'Slabo 27px', serif;
 
   line-height: 1.2em;
-margin:0;
 }
 .post {
 color: #666666;
