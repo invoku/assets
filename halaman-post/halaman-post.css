@@ -217,7 +217,7 @@ margin-right: 5%; }
 -o-transition-property: background color; -o-transition-duration: 0.4s; -o-transition-timing-function: ease-out; 
 transition-property: background color; transition-duration: 0.4s; transition-timing-function: ease-out; }
 .fa-chevron-right {padding-right:0px;}
-
+/*universal */
 .post{
                   padding: 2.5% !important; 
                   background: white !important;
@@ -270,4 +270,33 @@ transition-property: background color; transition-duration: 0.4s; transition-tim
     transition: all .2s ease-in-out;
     border-radius: 2px;
     box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.1);
+}
+/*related */
+#related-posts {
+float:center;
+text-transform:none;
+height:100%;
+min-height:100%;
+padding-top:5px;
+padding-left:5px;
+}
+
+#related-posts h2{
+font-size: 18px;
+letter-spacing: 2px;
+font-weight: bold;
+text-transform: none;
+color: #5D5D5D;
+font-family: Arial Narrow;
+margin-bottom: 0.75em;
+margin-top: 0em;
+padding-top: 0em;
+}
+#related-posts a{
+border-right: 1px dotted #DDDDDD;
+color:#5D5D5D;
+}
+#related-posts a:hover{
+color:black;
+background-color:#EDEDEF;
 }
