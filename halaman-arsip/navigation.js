@@ -57,7 +57,7 @@ pgNavig.show = function(f, e, a) {
         }
     }
     if (e < a) {
-        b += '<a href="' + f[e + 1] + '">' + pgNavigConf.nextText + "</a>"
+        b += '<a class="navigation-next" href="' + f[e + 1] + '">' + pgNavigConf.nextText + "</a>"
     }
     if (endPage < a) {
         b += '<a href="' + f[a] + '">' + pgNavigConf.lastText + "</a>"
