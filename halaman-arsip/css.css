@@ -1,1 +1,8 @@
 .kotak-awal{display:none;}
+.ias_loader{
+  position:fixed;
+  width:100px;
+  bottom:10px;
+  margin:0 auto;
+  z-index:1000;
+}
