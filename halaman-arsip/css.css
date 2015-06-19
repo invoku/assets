@@ -2,6 +2,7 @@
 .ias_loader{
   position:fixed;
   width:70px;
+  bottom:300px;
   margin-left:30%;
   margin-top:100px;
   z-index:1000;
