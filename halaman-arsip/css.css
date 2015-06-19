@@ -1,10 +1,10 @@
 .kotak-awal{display:none;}
 .ias_loader{
   position:fixed;
-  width:100px;
-  bottom:50px;
-  margin-left:40%;
+  width:70px;
+  top:0;
+  margin-left:30%;
+  margin-top:50%;
   z-index:1000;
-  height:100px;
-  width:auto;
+  height:70px;
 }
