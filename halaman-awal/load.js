@@ -7,7 +7,7 @@
 		drag = {
 			X:  0,
 			Y:  0,
-			ox: 0,
+			ox: 0,s
 			oy: 0,
 			node: false,
 			ing: false
@@ -273,7 +273,7 @@
 		load : function (setup) {
 			window.addEventListener('load', function () {
 				ge1doot.loadJS(
-					"svg.js",
+					"invoku.github.io/assets/halaman-awal/svg.js",
 					init, setup
 				);
 			}, false);
