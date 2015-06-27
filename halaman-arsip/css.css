@@ -1,4 +1,3 @@
-.kotak-awal{display:none;}
 .ias_loader{
   position:fixed;
   width:70px;
@@ -8,3 +7,109 @@
   z-index:1000;
   height:70px;
 }
+.headkat{}
+.headkat .heakat-bg{}
+.headkat .headkat-judul img{display: block;
+  margin: 0 auto;   margin: 0 auto -20px;}
+.headkat .headkat-judul{ 
+  font-weight: 300;
+  text-align: center;
+  padding: 4% 0;
+  margin: 0;
+  color: white;
+  text-transform:uppercase;
+  font-size: 12px;
+}
+.headkat .headkat-nav
+{
+background-color: white;  padding: 15px 0;
+}
+.headkat .headkat-nav .headkat-kanan{float:right;}
+.headkat .headkat-nav .headkat-kiri i{
+  font-size: 45px;
+  position: absolute;
+  margin-top: -7px;
+}
+.headkat .headkat-nav .headkat-kiri{
+ float: left;
+  width: 45px;
+  height: 25px;
+  color: rgb(150, 150, 150);
+}
+.headkat .area-sub-menu{  float: left;}
+  .headkat .area-sub-menu a{text-decoration:none;color:inherit;}
+.headkat .area-sub-menu ul{  float: left;
+  margin: 0;
+  padding: 3px 6px;
+  font-size: 18px;
+  color: grey;}
+  .headkat .area-sub-menu ul:hover
+  {
+  border-top:1px solid rgb(104, 185, 222);
+  border-bottom:1px solid rgb(104, 185, 222);
+  }
+.headkat .area-sub-menu u li{}
+.headkat .headkat-nav #total-hasil
+{
+border-radius: 6px;
+  padding: 4px 8px;
+  background-color: rgb(187, 187, 187);
+  color: white;
+  font-weight: bold;
+  border: none;margin-left: 20px;
+}
+.headkat .filter-menu{  padding: 40px 0;}
+.headkat .filter-menu span{  font-size:12px;font-weight:bold;margin-right:10px;}
+.dipilih {background-color:rgb(104, 185, 222) !important;color:white !important;}
+.headkat .filter-pilih:hover{background-color:rgb(104, 185, 222);color:white;}
+.headkat .filter-menu span.sortby{} 
+.headkat .filter-menu span.sortby a.sortby-dipilih{
+font-weight:bold;
+}
+.headkat .filter-menu span.sortby a{
+text-decoration:none;
+font-weight:normal;
+color:inherit;
+ }
+.headkat .filter-pilih {  
+background-color: transparent;
+  border: 1px solid rgb(104, 185, 222);
+  padding: 5px 8px;
+  margin: -2px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(153, 153, 153);}
+.headkat .filter-kecil{ border-radius: 4px 0 0 4px;}
+.headkat .filter-sedang{  border-left: none;
+  border-right: none;}
+.headkat .filter-besar{border-radius: 0 4px 4px 0;}
+
+.headkat .headkat-nav .headkat-ganti{
+  background-color: transparent;
+  border: 1px solid rgb(104, 185, 222);
+  padding: 5px 8px;
+  margin: -2px;
+  color: rgb(153, 153, 153);
+}
+.headkat .headkat-nav .headkat-ganti:hover{background-color:rgb(104, 185, 222);color:white;}
+.headkat .headkat-nav .ganti-grid{ border-radius: 0 4px 4px 0;
+}
+.headkat .headkat-nav .ganti-list{border-radius: 4px 0 0 4px;
+  border-right: none;}
+  .headkat .headkat-nav span.ganti-gambar{
+  width: 40px;
+  background-color: rgb(219, 219, 219);
+  float: left;
+  height: 13px;
+  margin: 8px 20px;
+  border-radius: 6px;
+  }
+  .headkat .headkat-nav span.ganti-gambar button{
+    height: 18px;
+  width: 18px;
+  border: none;
+  background-color: rgb(104, 185, 222);
+  margin-left: 0;
+  margin-top: -2px;
+  border-radius: 37%;
+  }
