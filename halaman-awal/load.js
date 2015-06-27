@@ -273,7 +273,7 @@
 		load : function (setup) {
 			window.addEventListener('load', function () {
 				ge1doot.loadJS(
-					"invoku.github.io/assets/halaman-awal/svg.js",
+					"http://invoku.github.io/assets/halaman-awal/svg.js",
 					init, setup
 				);
 			}, false);
