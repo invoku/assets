@@ -479,8 +479,31 @@ width: 100%;
   
 .items-area-kanan{}
 
+/**popular post ==========*/
 
-
-
+.popular-posts ul
+{
+padding: 0 20px !important; 	
+}
+.PopularPosts .item-title
+{
+ padding: 15px 10px !important;
+}
+.PopularPosts .item-title a
+{
+    font-weight: bold;
+    color: inherit;
+}
+.PopularPosts .item-thumbnail
+{   
+margin: 0 0px 20px 0 !important;
+}
+.PopularPosts .widget-content ul li
+{
+    background-color: white;
+    margin: 0 -2px 20px 0 !important;
+    border-radius: 4px;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
 
 
