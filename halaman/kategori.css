@@ -1,0 +1,219 @@
+.kategori{}
+.kategori .kategori-atas
+{
+  text-align: center;
+    height: 50%;
+  background: rgb(213, 213, 213) url("bg.png");
+  background-size: contain;
+}
+.kategori .kategori-atas h1
+{  padding-top: 7%;
+  font-weight: 300;
+  font-size: 4em;
+  margin: 0;
+  color: rebeccapurple;
+}
+.kategori .pilihan{
+  text-align: center;
+  margin-top: 40px;
+  border-bottom: 1px solid rgb(223, 221, 221);
+  float:none;
+  padding-bottom: 2px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.kategori .pilihan span{  text-align: center;}
+.kategori .pilihan span a{
+padding: 0 10px;
+  margin: 0;
+  text-decoration: none;
+  font-size: 28px;
+  color: rebeccapurple;
+  cursor:pointer;
+  }
+  .kategori .pilihan span a.bottom-bordered{
+  border-bottom:2px solid;
+  }
+.kategori .kategori-area
+{
+  float: none;
+  margin: 0 auto;
+}
+.kategori .kategori-area .kategori-item
+{
+  margin: 0;
+  padding: 30px;
+}
+.kategori .kategori-item .kategori-sub
+{
+  padding: 0;
+  border-radius: 8px;
+  padding-top: 40%;
+  background-size: initial;
+  box-shadow: 0 0 10px -5px rgb(47, 47, 47);
+  background-position-x: 50%;
+}
+.kategori .kategori-item .kategori-judul::before
+{
+content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 28px 28px 28px;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  position: absolute;
+  margin-top: -28px;
+}
+.kategori .kategori-item .kategori-sub a:hover
+{
+font-weight:bold;
+}
+.kategori .kategori-item .kategori-sub ul
+{
+  padding: 0 40px;
+  list-style-type: none;
+  border-radius: 0 0 8px 8px;
+  margin:0;
+  }
+.kategori .kategori-item .kategori-sub ul li{ padding:10px 0}
+.kategori .kategori-item .kategori-sub ul li:hover{}
+.kategori .kategori-item .kategori-sub ul li h2
+{
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  color: white;
+  cursor:pointer;
+}
+.kategori .kategori-item .kategori-sub ul ul li a.kategori-more
+{
+  background-color: rgba(0, 0, 0, 0.17);
+  border-radius: 0 0 8px 8px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-bottom: -10px;
+  padding: 12px;
+}
+.kategori .kategori-item .kategori-sub ul ul{margin: 0;display:none;  padding: 0;}
+.kategori .kategori-item .kategori-sub ul ul li:first-child{  border-top: 1px solid rgba(0, 0, 0, 0.15);}
+.kategori .kategori-item .kategori-sub ul ul li{}
+.kategori .kategori-item .kategori-sub ul ul li i{padding: 0 10px 0 0;  font-size: 2em;vertical-align: middle;}
+.kategori .kategori-item .kategori-sub ul ul li a{  color: white;text-decoration: none;font-size: 20px;}
+.kategori .kategori-item .kategori-sub ul ul ul{padding-left: 40px;display: block;}
+.kategori .kategori-item .kategori-sub ul ul ul li{}
+.kategori .kategori-item .kategori-sub ul ul ul li:first-child{border-top:none;}
+
+.library{}
+.library .area-library{}
+.library .library-kategory{
+  float: none;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+  font-family: -webkit-pictograph;
+  color: rebeccapurple;
+  font-size: 22px;
+  border-bottom: 1px solid rebeccapurple;
+  height: 14px;
+}
+  .library .library-kategory span{
+  background-color: rgb(247, 247, 247);
+  padding: 10px;}
+.library .library-item{  margin: 40px auto;
+  float: none;  display: inline-block;}
+.library .cat-library{  
+width: 20%;
+  float: left;}
+.library .cat-library img{ 
+  height: auto;
+  width: 100%;
+  margin: 20% 0;
+  float: none;
+  background-size: cover !important;
+}
+.library .cat-library span{ 
+  height: 150px;
+  margin: 10px 10px 0 0;
+  display: block;
+    background-size: cover !important;
+  }
+.library .cat-library a{
+display: block;
+  height: 150px;
+text-align: center;
+  }
+.mask-buku-kategori
+{
+  width: 100%;
+  margin-top: -82% !important;
+  z-index: 0;
+}
+/*FOR BG */
+/*BG - TUTORIAL*/
+.agama-background-img-wide-800 {background-image:url('bg/agama-bg-wide-800.jpg');}
+
+.edukasi-background-img-wide-800 {background-image:url('bg/edukasi-bg-wide-800.jpg');}
+
+.ekonomi-background-img-wide-800 {background-image:url('bg/ekonomi-bg-wide-800.jpg');}
+
+.hobi-background-img-wide-800 {background-image:url('bg/hobi-bg-wide-800.jpg');}
+
+.hiburan-background-img-wide-800 {background-image:url('bg/hiburan-bg-wide-800.jpg');}
+
+.edukasi-background-img-wide-800 {background-image:url('bg/edukasi-bg-wide-800.jpg');}
+
+.gayahidup-background-img-wide-800 {background-image:url('bg/gayahidup-bg-wide-800.jpg');}
+
+.kehidupan-background-img-wide-800 {background-image:url('bg/kehidupan-bg-wide-800.jpg');}
+
+.kendaraan-background-img-wide-800 {background-image:url('bg/kendaraan-bg-wide-800.jpg');}
+
+.kerja-background-img-wide-800 {background-image:url('bg/kerja-bg-wide-800.jpg');}
+
+.pc-background-img-wide-800 {background-image:url('bg/pc-bg-wide-800.jpg');}
+
+.lezat-background-img-wide-800 {background-image:url('bg/lezat-bg-wide-800.jpg');}
+
+.sehat-background-img-wide-800 {background-image:url('bg/sehat-bg-wide-800.jpg');}
+
+.rumah-background-img-wide-800 {background-image:url('bg/rumah-bg-wide-800.jpg');}
+
+.traveling-background-img-wide-800 {background-image:url('bg/traveling-bg-wide-800.jpg');}
+
+/*buku bg*/
+
+.buku-anak-bg{background:url("img/library/anak-anak-bg-grey-500.jpg") !important}
+.buku-biografi-bg{background:url("img/library/biografi-bg-grey-500.jpg") !important}
+.buku-fiksi-dan-literatur-bg{background:url("img/library/fiksi-dan-literatur-bg-grey-500.jpg") !important}
+.buku-kehidupan-bg{background:url("img/library/kehidupan-bg-grey-500.jpg") !important}
+.buku-kerajinan-bg{background:url("img/library/kerajinan-bg-grey-500.jpg") !important}
+.buku-kesehatan-bg{background:url("img/library/kesehatan-bg-grey-500.jpg") !important}
+.buku-komputer-bg{background:url("img/library/komputer-bg-grey-500.jpg") !important}
+.buku-percintaan-bg{background:url("img/library/percintaan-bg-grey-500.jpg") !important}
+.buku-sosial-bg{background:url("img/library/sosial-bg-grey-500.jpg") !important}
+.buku-tabloid-bg{background:url("img/library/tabloid-bg-grey-500.jpg") !important}
+
+.buku-agama-bg{background:url("img/library/agama-bg-grey-500.jpg") !important}
+.buku-anakmuda-bg{background:url("img/library/anakmuda-dewasa-bg-grey-500.jpg") !important}
+.buku-edukasi-bg{background:url("img/library/edukasi-bg-grey-500.jpg") !important}
+.buku-ekonomi-bg{background:url("img/library/ekonomi-bg-grey-500.jpg") !important}
+.buku-gaya-hidup-bg{background:url("img/library/gaya-hidup-bg-grey-500.jpg") !important}
+.buku-hiburan-bg{background:url("img/library/hiburan-bg-grey-500.jpg") !important}
+.buku-hukum-bg{background:url("img/library/hukum-bg-grey-500.jpg") !important}
+.buku-ilmiah-bg{background:url("img/library/ilmiah-bg-grey-500.jpg") !important}
+.buku-keluarga-bg{background:url("img/library/keluarga-bg-grey-500.jpg") !important}
+.buku-memasak-bg{background:url("img/library/memasak-bg-grey-500.jpg") !important}
+.buku-olah-raga-bg{background:url("img/library/olah-raga-bg-grey-500.jpg") !important}
+.buku-referensi-bg{background:url("img/library/referensi-bg-grey-500.jpg") !important}
+.buku-rumah-bg{background:url("img/library/rumah-bg-grey-500.jpg") !important}
+.buku-sains-bg{background:url("img/library/sains-bg-grey-500.jpg") !important}
+.buku-sejarah-bg{background:url("img/library/sejarah-bg-grey-500.jpg") !important}
+.buku-seni-bg{background:url("img/library/seni-bg-grey-500.jpg") !important}
+.buku-teknik-bg{background:url("img/library/teknik-bg-grey-500.jpg") !important}
+.buku-travel-bg{background:url("img/library/travel-bg-grey-500.jpg") !important}
