@@ -20,6 +20,13 @@
   text-transform:uppercase;
   font-size: 12px;
 }
+.headkat .headkat-judul span
+{
+   padding: 60px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
 .headkat .headkat-nav
 {
 background-color: white;  padding: 15px 0;
@@ -39,28 +46,28 @@ background-color: white;  padding: 15px 0;
 .headkat .area-sub-menu{  float: left;}
   .headkat .area-sub-menu a{text-decoration:none;color:inherit;}
 .headkat .area-sub-menu ul{  float: left;
-  margin: 0;
-  padding: 3px 6px;
-  font-size: 18px;
-  color: grey;}
-  .headkat .area-sub-menu ul:hover
-  {
-  border-top:1px solid rgb(104, 185, 222);
-  border-bottom:1px solid rgb(104, 185, 222);
-  }
-.headkat .area-sub-menu u li{}
+   float: left;
+    margin: 0;
+    padding:0;
+    font-size: 28px;
+    color: grey;
+    text-transform: uppercase;
+  
+}
+  
 .headkat .headkat-nav #total-hasil
 {
-border-radius: 6px;
-  padding: 4px 8px;
-  background-color: rgb(187, 187, 187);
-  color: white;
-  font-weight: bold;
-  border: none;margin-left: 20px;
+border-radius: 4px;
+    padding: 4px 8px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    margin-left: 20px;
+    border: 1px solid #9999A3;
 }
 .headkat .filter-menu{  padding: 40px 0;}
 .headkat .filter-menu span{  font-size:12px;font-weight:bold;margin-right:10px;}
-.dipilih {background-color:rgb(104, 185, 222) !important;color:white !important;}
+.dipilih {background-color:rgb(104, 185, 222);color:white !important;}
 .headkat .filter-pilih:hover{background-color:rgb(104, 185, 222);color:white;}
 .headkat .filter-menu span.sortby{} 
 .headkat .filter-menu span.sortby a.sortby-dipilih{
@@ -73,7 +80,7 @@ color:inherit;
  }
 .headkat .filter-pilih {  
 background-color: transparent;
-  border: 1px solid rgb(104, 185, 222);
+  border: 1px solid rgb(153, 153, 153);;
   padding: 5px 8px;
   margin: -2px;
   font-size: 12px;
