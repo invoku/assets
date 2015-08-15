@@ -121,3 +121,104 @@ padding: 0 8px 10px;
     line-height: 1.5em;
     word-break: break-all;
 }
+
+/*============== TRENDING ===========*/
+#halaman-awal-slide
+{
+    z-index: 10;
+position: relative;
+left: 0;
+display: block;
+width: 100%;
+float: left;
+}
+ul.rcentside {font: normal normal .8em monospace;}
+ul.rcentside,ul.rcentside li{margin:0;padding:0;list-style:none;position:relative}
+ul.rcentside{width:100%;height:440px}
+ul.rcentside li{height:24.5%;position:absolute;padding:0;width:49.5%;float:left;overflow:hidden;display:none}
+ul.rcentside li:nth-child(1),ul.rcentside li:nth-child(2),ul.rcentside li:nth-child(3),ul.rcentside li:nth-child(4){display:block}
+ul.rcentside img{border:0;width:100%;height:100%}
+ul.rcentside li:nth-child(1){
+width: 50%;
+height: 100%;
+margin: 0 0 2px;
+left: 0;
+top: 0;
+}
+ul.rcentside li:nth-child(2){
+left: 50%;
+top: 0;
+width: 25%;
+height: 100%;
+}
+ul.rcentside li:nth-child(3){
+    right: 0;
+top: 0;
+width: 25%;
+height: 50%;
+}
+ul.rcentside li:nth-child(4){
+    right: 0;
+top: 50%;
+width: 25%;
+height: 50%;
+}
+ul.rcentside .overlayx,ul.rcentside li{-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+ul.rcentside .overlayx {
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 2;
+left: 0;
+top: 0;
+background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(100%, #000000));
+background: -webkit-linear-gradient(transparent,#000000);
+background: -moz-linear-gradient(transparent,#000000);
+background: -o-linear-gradient(transparent,#000000);
+background: linear-gradient(transparent,#000000);
+}
+ul.rcentside img {
+border-right: .1em solid #9E9E9E;
+}
+ul.rcentside .overlayx:hover{
+   opacity:.5;
+background:#000;
+} 
+ul.rcentside h4 {
+position: absolute;
+bottom: 30px;
+z-index: 2;
+color: white;
+margin: 0;
+width: 100%;
+font-size: 2.5em;
+padding: 0 10px;
+line-height: 1em;
+font-family: 'Slabo 27px', serif;
+font-weight: normal;
+}
+ul.rcentside li:nth-child(1) h4{font-size:5em}
+ul.rcentside .label_text {
+position: absolute;
+bottom: 10px;
+left: 10px;
+z-index: 2;
+color: rgb(255, 176, 86);
+}
+ul.rcentside li:nth-child(2) .autname,ul.rcentside li:nth-child(3) .autname{display:none}
+.hal-awal-sider-tombol{margin: 5px 0 0;
+top: 50%;
+position: absolute;
+width: 100%;
+}
+.tombol{top:45%;width: 100%;display:block;position: absolute;z-index: 5;}
+.tombol a{display: inline-block;
+text-indent: -9999px;
+background: rgba(0, 0, 0, 0.82);
+position: relative;
+padding: 15px 35px;}
+.tombol a.sebelum{float:left;}
+.tombol a.sesudah{float:right;}
+.tombol a::before{content:"";width:0;height:0;border-width:8px 7px;border-style:solid;border-color:transparent #535353 transparent transparent;position:absolute;top:50%;margin-top:-8px;margin-left:-10px;left:50%}
+.tombol a.sebelum::before{border-color:transparent transparent transparent #535353;margin-left:-3px}
+.tombol a.sesudah::before{border-color:transparent transparent transparent #535353;margin-left:-3px}
