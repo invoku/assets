@@ -1,0 +1,106 @@
+.explore{}
+.explore .explore-atas
+{
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding: 3em 0;
+  background-color: rgb(207, 207, 207);
+}
+.explore .explore-atas h1.judul
+{color: grey;
+  margin: 0;  font-weight: 300;
+}
+
+.explore-pre-menu{
+  background-color: rgb(207, 207, 207);
+
+}
+nav.explore-menu{  float: none;
+  margin: 0 auto;}
+nav.explore-menu ul.explore-kategori-list
+{
+border-bottom: 1px solid rgb(181, 181, 181);
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+  padding: 0;
+
+}
+nav.explore-menu ul li
+{
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0;
+
+}
+nav.explore-menu ul li:hover
+{
+margin-bottom: -9px;
+  zoom: 2;
+  margin-top: -9px;
+}
+nav.explore-menu ul li a{color: whitesmoke;}
+
+.explore .explore-trending{background-color: white;}
+.explore .explore-terbaru{}
+.explore .explore-terbaru h1{color: rgb(255, 203, 0);}
+
+.explore .explore-kategori-area{}
+.explore .explore-subcat-area-bg{
+background-size:cover !important;
+background-position-y: 67px !important;
+background-repeat: no-repeat !important;
+padding: 15px 0;
+margin: 5px 0;
+}
+.explore .explore-subcat-area-bg:hover
+{
+background-image:none !important;
+}
+.explore .explore-subcat-area{  float: none;min-height:300px;
+  margin: 0 auto;}
+.explore .explore-subcat-atas
+{
+  width: 100%;
+  border-bottom: 3px solid;
+  position: relative;
+  display: inline-block;
+}
+.explore .explore-subcat-atas span{  display: block;}
+.explore .explore-subcat-atas span.subjudul-tengah
+{
+position: absolute;
+  display: inline-block;
+  color: rgb(139, 139, 139);
+  margin: 16px;
+  font-size: 18px;
+}
+.explore .explore-subcat-atas span h2.subjudul
+{
+  margin: 0;
+  float: left;
+  padding: 10px 15px;
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  }
+.explore .explore-subcat-atas span a{
+  float: right;
+  margin-top: 16px;
+  color: rgb(107, 107, 107);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.explore .explore-subcat-atas span i.more
+{
+  background-color: initial;
+  padding: initial;
+  margin: initial;
+  position: relative;
+  left: initial;
+    top: 2px;
+  font-weight: bold;
+}
