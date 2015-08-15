@@ -104,3 +104,10 @@ position: absolute;
     top: 2px;
   font-weight: bold;
 }
+
+/*relayout for content*/
+.explore .explore-subcat-area ul.label_with_thumbs{}
+.explore .explore-subcat-area ul.label_with_thumbs li{}
+.explore .explore-subcat-area ul.label_with_thumbs li a{}
+.explore .explore-subcat-area ul.label_with_thumbs li a img{}
+.explore .explore-subcat-area ul.label_with_thumbs li strong{}
