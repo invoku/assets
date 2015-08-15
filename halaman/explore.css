@@ -107,7 +107,7 @@ position: absolute;
 
 /*relayout for content*/
 .explore .explore-subcat-area ul.label_with_thumbs{    display: block;
-    float: left;}
+    float: left;    width: 100%;box-shadow: none;}
 .explore .explore-subcat-area ul.label_with_thumbs li{    list-style: none;
     margin: 0 10px;
     background-color: white;
