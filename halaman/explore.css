@@ -106,8 +106,12 @@ position: absolute;
 }
 
 /*relayout for content*/
-.explore .explore-subcat-area ul.label_with_thumbs{}
-.explore .explore-subcat-area ul.label_with_thumbs li{}
-.explore .explore-subcat-area ul.label_with_thumbs li a{}
-.explore .explore-subcat-area ul.label_with_thumbs li a img{}
-.explore .explore-subcat-area ul.label_with_thumbs li strong{}
+.explore .explore-subcat-area ul.label_with_thumbs{    display: block;
+    float: left;}
+.explore .explore-subcat-area ul.label_with_thumbs li{    list-style: none;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 4px;}
+.explore .explore-subcat-area ul.label_with_thumbs li a{display: block;}
+.explore .explore-subcat-area ul.label_with_thumbs li a img{    width: 100%;}
+.explore .explore-subcat-area ul.label_with_thumbs li strong a{    padding: 5px 10px;color: inherit;}
