@@ -92,6 +92,7 @@
 
 /*for transparent*/
  .agama-background-color-trans{background-color:rgba(244, 211, 74, 0.7) !important; }
+ .edukasi-background-color-trans{background-color:rgba(244, 142, 74, 0.7) !important;}
  .ekonomi-background-color-trans{background-color:rgba(235, 78, 63, 0.7) !important; }
  .hiburan-background-color-trans{background-color:rgba(234, 154, 159, 0.7) !important; }
  .hobi-background-color-trans{background-color:rgba(77, 212, 184, 0.7) !important; }
@@ -100,8 +101,10 @@
  .komputer-background-color-trans{background-color:rgba(104, 185, 222, 0.7) !important; }
  .lezat-background-color-trans{background-color:rgba(183, 213, 87, 0.7) !important; }
  .sehat-background-color-trans{background-color:rgba(91, 216, 144, 0.7) !important; }
- 
- 
+ .lezat-background-color-trans{background-color:rgba(183, 213, 87, 0.7) !important;}
+ .pc-background-color-trans{background-color: rgba(104, 185, 222, 0.7) !important}
+ .rumah-background-color-trans{background-color: rgba(126, 80, 126, 0.8) !important}
+ .traveling-background-color-trans{background-color: rgba(95, 162, 161, 0.7) !important}
 /*for picture*/
 /*wide 1600 transparant .5*/
 .agama-bg-image-1600-trans {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291853/e27a5b7c-438c-11e5-9cf2-aa66853f162c.png');}
