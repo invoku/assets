@@ -156,64 +156,62 @@ text-align: center;
 }
 /*FOR BG */
 /*BG - TUTORIAL*/
-.agama-background-img-wide-800 {background-image:url('bg/agama-bg-wide-800.jpg');}
+.agama-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291666/c791a53c-4381-11e5-87aa-e55157829a63.jpg');}
 
-.edukasi-background-img-wide-800 {background-image:url('bg/edukasi-bg-wide-800.jpg');}
+.edukasi-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291667/c7d7b9a0-4381-11e5-9336-a3fc398ef6c6.jpg');}
 
-.ekonomi-background-img-wide-800 {background-image:url('bg/ekonomi-bg-wide-800.jpg');}
+.ekonomi-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291668/c7efd09e-4381-11e5-843b-9b0016f53cf8.jpg');}
 
-.hobi-background-img-wide-800 {background-image:url('bg/hobi-bg-wide-800.jpg');}
+.hobi-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291671/c83a13ca-4381-11e5-892c-454878e99894.jpg');}
 
-.hiburan-background-img-wide-800 {background-image:url('bg/hiburan-bg-wide-800.jpg');}
+.hiburan-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291670/c80b012a-4381-11e5-819f-f86b82d67ed9.jpg');}
 
-.edukasi-background-img-wide-800 {background-image:url('bg/edukasi-bg-wide-800.jpg');}
+.gayahidup-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291669/c7f8f8f4-4381-11e5-8a4d-48f95bb3ec92.jpg');}
 
-.gayahidup-background-img-wide-800 {background-image:url('bg/gayahidup-bg-wide-800.jpg');}
+.kehidupan-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291658/c633ccba-4381-11e5-8ea0-b9046a4a3915.jpg');}
 
-.kehidupan-background-img-wide-800 {background-image:url('bg/kehidupan-bg-wide-800.jpg');}
+.kendaraan-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291659/c652c96c-4381-11e5-8aac-4639e7d577aa.jpg');}
 
-.kendaraan-background-img-wide-800 {background-image:url('bg/kendaraan-bg-wide-800.jpg');}
+.kerja-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291661/c6c20304-4381-11e5-87b1-63fa4d9d0c4a.jpg');}
 
-.kerja-background-img-wide-800 {background-image:url('bg/kerja-bg-wide-800.jpg');}
+.pc-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291662/c6fb7012-4381-11e5-9338-3266c849deb0.jpg');}
 
-.pc-background-img-wide-800 {background-image:url('bg/pc-bg-wide-800.jpg');}
+.lezat-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291660/c6bb8bd2-4381-11e5-9ba9-0c9047cc140f.jpg');}
 
-.lezat-background-img-wide-800 {background-image:url('bg/lezat-bg-wide-800.jpg');}
+.sehat-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291664/c74d2998-4381-11e5-9476-efb29313df12.jpg');}
 
-.sehat-background-img-wide-800 {background-image:url('bg/sehat-bg-wide-800.jpg');}
+.rumah-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291663/c7465b7c-4381-11e5-83a1-5bf09a6015ad.jpg');}
 
-.rumah-background-img-wide-800 {background-image:url('bg/rumah-bg-wide-800.jpg');}
-
-.traveling-background-img-wide-800 {background-image:url('bg/traveling-bg-wide-800.jpg');}
+.traveling-background-img-wide-800 {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9291671/c83a13ca-4381-11e5-892c-454878e99894.jpg');}
 
 /*buku bg*/
 
-.buku-anak-bg{background:url("img/library/anak-anak-bg-grey-500.jpg") !important}
-.buku-biografi-bg{background:url("img/library/biografi-bg-grey-500.jpg") !important}
-.buku-fiksi-dan-literatur-bg{background:url("img/library/fiksi-dan-literatur-bg-grey-500.jpg") !important}
-.buku-kehidupan-bg{background:url("img/library/kehidupan-bg-grey-500.jpg") !important}
-.buku-kerajinan-bg{background:url("img/library/kerajinan-bg-grey-500.jpg") !important}
-.buku-kesehatan-bg{background:url("img/library/kesehatan-bg-grey-500.jpg") !important}
-.buku-komputer-bg{background:url("img/library/komputer-bg-grey-500.jpg") !important}
-.buku-percintaan-bg{background:url("img/library/percintaan-bg-grey-500.jpg") !important}
-.buku-sosial-bg{background:url("img/library/sosial-bg-grey-500.jpg") !important}
-.buku-tabloid-bg{background:url("img/library/tabloid-bg-grey-500.jpg") !important}
+.buku-anak-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291624/77028802-4381-11e5-8ee9-b028336f1a23.jpg") !important}
+.buku-biografi-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291625/7734d258-4381-11e5-8534-029176311248.jpg") !important}
+.buku-fiksi-dan-literatur-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291628/778a5f5c-4381-11e5-9d0a-3c09561bbf2a.jpg") !important}
+.buku-kehidupan-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291634/7826f1be-4381-11e5-8571-77e18cbf3165.jpg") !important}
+.buku-kerajinan-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291637/78870216-4381-11e5-83b8-173b94d71f98.jpg") !important}
+.buku-kesehatan-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291636/786bfd5e-4381-11e5-8992-c5b1546a6ff8.jpg") !important}
+.buku-komputer-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291638/78aa6a76-4381-11e5-8dfa-1f733aae3f28.jpg") !important}
+.buku-percintaan-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291642/78f8953e-4381-11e5-99f4-507a323aaef5.jpg") !important}
+.buku-sosial-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291647/7997774e-4381-11e5-80e0-cdca1199c199.jpg") !important}
+.buku-tabloid-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291648/799ab652-4381-11e5-839b-150413311d8d.jpg") !important}
 
-.buku-agama-bg{background:url("img/library/agama-bg-grey-500.jpg") !important}
-.buku-anakmuda-bg{background:url("img/library/anakmuda-dewasa-bg-grey-500.jpg") !important}
-.buku-edukasi-bg{background:url("img/library/edukasi-bg-grey-500.jpg") !important}
-.buku-ekonomi-bg{background:url("img/library/ekonomi-bg-grey-500.jpg") !important}
-.buku-gaya-hidup-bg{background:url("img/library/gaya-hidup-bg-grey-500.jpg") !important}
-.buku-hiburan-bg{background:url("img/library/hiburan-bg-grey-500.jpg") !important}
-.buku-hukum-bg{background:url("img/library/hukum-bg-grey-500.jpg") !important}
-.buku-ilmiah-bg{background:url("img/library/ilmiah-bg-grey-500.jpg") !important}
-.buku-keluarga-bg{background:url("img/library/keluarga-bg-grey-500.jpg") !important}
-.buku-memasak-bg{background:url("img/library/memasak-bg-grey-500.jpg") !important}
-.buku-olah-raga-bg{background:url("img/library/olah-raga-bg-grey-500.jpg") !important}
-.buku-referensi-bg{background:url("img/library/referensi-bg-grey-500.jpg") !important}
-.buku-rumah-bg{background:url("img/library/rumah-bg-grey-500.jpg") !important}
-.buku-sains-bg{background:url("img/library/sains-bg-grey-500.jpg") !important}
-.buku-sejarah-bg{background:url("img/library/sejarah-bg-grey-500.jpg") !important}
-.buku-seni-bg{background:url("img/library/seni-bg-grey-500.jpg") !important}
-.buku-teknik-bg{background:url("img/library/teknik-bg-grey-500.jpg") !important}
-.buku-travel-bg{background:url("img/library/travel-bg-grey-500.jpg") !important}
+.buku-agama-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291623/76d1a066-4381-11e5-8a0b-6037622f3f66.jpg") !important}
+.buku-anakmuda-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291627/77762c1c-4381-11e5-8fb0-17ce7f10f5b4.jpg") !important}
+.buku-edukasi-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291629/77a4bd5c-4381-11e5-84a4-41a7261b8523.jpg") !important}
+.buku-ekonomi-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291626/776a2002-4381-11e5-9c89-c4eddde787c1.jpg") !important}
+.buku-gaya-hidup-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291631/77d7760c-4381-11e5-991c-04bdf4b668fd.jpg") !important}
+.buku-hiburan-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291630/77cc3c24-4381-11e5-9c2d-67d7cf6d96be.jpg") !important}
+.buku-hukum-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291632/7801a558-4381-11e5-8829-4058aa7217cd.jpg") !important}
+.buku-ilmiah-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291633/781772de-4381-11e5-90c5-2d9055c18cae.jpg") !important}
+.buku-keluarga-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291635/783ca4c8-4381-11e5-9a2d-d42bf0ef6b9e.jpg") !important}
+.buku-memasak-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291639/78baae90-4381-11e5-8699-58ac939efd25.jpg") !important}
+.buku-olah-raga-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291640/78cb4336-4381-11e5-967e-e59065c7b92b.jpg") !important}
+.buku-referensi-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291641/78f3d044-4381-11e5-910a-7f974868da7d.jpg") !important}
+.buku-rumah-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291643/7943a0c4-4381-11e5-9391-5c07df8b7d99.jpg") !important}
+.buku-sains-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291644/795f800a-4381-11e5-914e-465d0d4febca.jpg") !important}
+.buku-sejarah-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291645/797ad666-4381-11e5-8ca5-8cb49858ef05.jpg") !important}
+.buku-seni-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291646/798fbac2-4381-11e5-9e3b-3575345cbaeb.jpg") !important}
+.buku-teknik-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291649/79d84120-4381-11e5-8a30-d59729779ee1.jpg") !important}
+.buku-travel-bg{background:url("https://cloud.githubusercontent.com/assets/11361401/9291650/79dd2028-4381-11e5-963a-975a6cac9286.jpg") !important}
