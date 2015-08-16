@@ -522,6 +522,31 @@ margin: 0 0px 20px 0 !important;
 {
  width: 100%;
 }
+
+/*diskusi*/
+.diskusi
+{margin-top: 320px;
+    display: block;
+    float: left;
+    padding-bottom: 20px;
+    width: 100%;}
+.diskusi .btn-diskusi
+{width: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 4px;
+    color: inherit;}
+.yangsama{
+ margin-top: 300px;
+ background-color: #505050;
+}
+.yangsama h2{
+    font-weight: 400;
+    padding: 0 20px;
+    color: white;
+}
 /* Base for label styling */
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
