@@ -622,7 +622,8 @@ label:hover:before {
 .social-share .total-share
 {display: inline-block;
     padding: 10px 20px 10px 0;
-    border-right: 1px solid;    vertical-align: text-bottom;}
+    border-right: 1px solid;    
+    vertical-align: bottom;}
 .social-share .total-share .share-btn 
 {display: inline-block;
     padding: 5px;}
@@ -672,8 +673,6 @@ border-left: 1px solid rgba(255, 255, 255, 0.52);
     background: #C7C7C7;
     padding: 10px 25px !important;
 }
-.social-share .more
-{display:none;}
 .social-share .button_facebook
 {background:#3a579a;}
 .social-share .button_twitter
