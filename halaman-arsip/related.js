@@ -1,4 +1,3 @@
-
 var relatedTitles = new Array();
 var relatedTitlesNum = 0;
 var relatedUrls = new Array();
@@ -19,7 +18,7 @@ if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!=""))
 
 }
 
-if(relatedTitles[relatedTitlesNum].length>50) relatedTitles[relatedTitlesNum]=relatedTitles[relatedTitlesNum].substring(0, 50)+"...";
+if(relatedTitles[relatedTitlesNum].length>35) relatedTitles[relatedTitlesNum]=relatedTitles[relatedTitlesNum].substring(0, 35)+"...";
 for (var k = 0; k < entry.link.length; k++) {
 if (entry.link[k].rel == 'alternate') {
 relatedUrls[relatedTitlesNum] = entry.link[k].href;
@@ -76,11 +75,13 @@ i--;
 var r = Math.floor((relatedTitles.length - 1) * Math.random());
 var i = 0;
 
+if(relatedTitles.length>0) document.write('<h2>'+relatedpoststitle+'</h2>');
 document.write('<div style="clear: both;"/>');
 while (i < relatedTitles.length && i < 20 && i<maxresults) {
-document.write('<a ');
-
-document.write(' href="' + relatedUrls[r] + '"><img class="related-gambar" src="'+thumburl[r]+'"/><div class="related-judul">'+relatedTitles[r]+'</div></a>');
+document.write('<a style="text-decoration:none;padding:5px;float:left;');
+if(i!=0) document.write('border-left:solid 0.5px '+splitbarcolor+';"');
+else document.write('"');
+document.write(' href="' + relatedUrls[r] + '"><img src="'+thumburl[r]+'"/><div>'+relatedTitles[r]+'</div></a>');
 
 i++;
 
