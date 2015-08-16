@@ -44,7 +44,7 @@ background-color: white;  padding: 15px 0;
   color: rgb(150, 150, 150);
 }
 .headkat .area-sub-menu{  float: left;}
-  .headkat .area-sub-menu a{text-decoration:none;color:inherit;}
+.headkat .area-sub-menu a{text-decoration:none;color:inherit;}
 .headkat .area-sub-menu ul{  float: left;
    float: left;
     margin: 0;
@@ -52,9 +52,11 @@ background-color: white;  padding: 15px 0;
     font-size: 28px;
     color: grey;
     text-transform: uppercase;
-  
 }
-  
+  .headkat .area-sub-menu ul b{
+  font-weight:200;
+    
+  }
 .headkat .headkat-nav #total-hasil
 {
 border-radius: 4px;
