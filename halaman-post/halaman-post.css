@@ -188,15 +188,15 @@ list-style-type:disc;
 margin-left:10px;
 }
 /*pager */
-.mbt-pager { border-top: 2px dashed #ddd; border-bottom: 2px dashed #ddd;  margin-bottom: 10px;   overflow:hidden; padding:0px;} 
+.mbt-pager { border-top: 2px dashed #ddd; overflow:hidden; padding:0px;} 
 .mbt-pager li.next { float: right; padding:0px; background:none; margin:0px;} 
-.mbt-pager li.next a { padding-left: 24px; }
-.mbt-pager li.previous { margin:0px -2px 0px 0px; float: left;  border-right:1px solid #ddd; padding:0px; background:none; 
+.mbt-pager li.next a {text-align: right;padding-left: 24px; }
+.mbt-pager li.previous { margin:0px -2px 0px 0px; float: left;     border-right: 2px dashed #ddd; padding:0px; background:none; 
 } 
-.mbt-pager li.previous a { padding-right: 24px;  }
+.mbt-pager li.previous a {text-align: left; padding-right: 24px;  }
 .mbt-pager li.next:hover, .mbt-pager li.previous:hover  {background:#8FB4D7; }
 .mbt-pager li { width: 50%; display: inline; float: left; text-align: center; } 
-.mbt-pager li a { position: relative; min-height: 77px; display: block; padding: 15px 46px 15px; outline:none; text-decoration:none;}
+.mbt-pager li a {position: relative; min-height: 77px; display: block; padding: 15px 46px 15px; outline:none; text-decoration:none;}
 .mbt-pager li i { color: #ccc; font-size: 18px; }
 .mbt-pager li a strong { display: block; font-size: 20px; color: #ccc; letter-spacing: 0.5px; font-weight: bold; text-transform: uppercase;}
 .mbt-pager li a span { font-size: 18px; color: #666;font-family: 'Slabo 27px' serif; margin:0px;} 
@@ -217,6 +217,7 @@ transition-property: background color; transition-duration: 0.4s; transition-tim
 .post{
                   padding: 2.5% !important; 
                   background: white !important;
+                  padding-bottom:0;
                 }
 .post-timestamp {
                   background-color: #E2E2E2;
@@ -471,7 +472,7 @@ width: 100%;
 .items-area-tengah .item-isi{
   background-color: white;
   float: left;
-  padding: 20px;
+  padding: 20px 20px 0;
   border-radius: 0 0 8px 8px;
   z-index: 90;
   border-top: 0 !important;
