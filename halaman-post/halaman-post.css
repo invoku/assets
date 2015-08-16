@@ -619,17 +619,17 @@ label:hover:before {
 .social-share{    width: 100%;
     float: left;
     display: block;}
-..social-share .total-share
+.social-share .total-share
 {display: inline-block;
-    padding: 10px 20px;
-    border-right: 1px solid;}
+    padding: 10px 20px 10px 0;
+    border-right: 1px solid;    vertical-align: text-bottom;}
 .social-share .total-share .share-btn 
 {display: inline-block;
     padding: 5px;}
 .social-share .share-btn {display: inline-block;
     padding: 5px 10px;
     margin-left: 8px;
-	border-left:1px solid grey;
+border-left: 1px solid rgba(255, 255, 255, 0.52);
 }
 .social-share .share-btn .jumlah-total 
 {
@@ -666,8 +666,14 @@ label:hover:before {
 }
 .social-share .share-button-area ul li .count{}
 
-.social-share .button_more
-{background: whitesmoke;}
+.social-share .button_more:hover
+{background: #E4E4E4;}
+.social-share .button_more {
+    background: #C7C7C7;
+    padding: 10px 25px !important;
+}
+.social-share .more
+{display:none;}
 .social-share .button_facebook
 {background:#3a579a;}
 .social-share .button_twitter
