@@ -3,11 +3,11 @@
 {
   text-align: center;
     height: 50%;
-  background: rgb(213, 213, 213) url("https://cloud.githubusercontent.com/assets/11361401/9291794/45ded462-4389-11e5-99c1-8d9d665a9386.png");
+  background: rgba(114, 111, 175, 0.81) url("https://cloud.githubusercontent.com/assets/11361401/9291794/45ded462-4389-11e5-99c1-8d9d665a9386.png");
   background-size: contain;
 }
 .kategori .kategori-atas h1
-{  padding: 6% 0;
+{  padding: 10% 0;
   font-weight: 300;
   font-size: 4em;
   margin: 0;
@@ -33,7 +33,7 @@
     text-transform: uppercase;
   }
   .kategori .pilihan span a.bottom-bordered{
-  border-bottom:2px solid;
+  border-bottom:4px solid;
   }
 .kategori .kategori-area
 {
@@ -144,6 +144,9 @@ width: 20%;
   display: block;
     background-size: cover !important;
   }
+.library .cat-library a:hover{
+ background-color: initial !important;
+}
 .library .cat-library a{
 display: block;
   height: 150px;
