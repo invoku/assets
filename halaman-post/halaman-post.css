@@ -616,11 +616,65 @@ label:hover:before {
   border: 1px solid #4778d9!important;
 }
 /*SOCIAL SHARE*/
-.social-share{}
-.social-share .share-btn {}
-.social-share .share-btn .jumlah-total {}
-.social-share .share-btn .bawah-total{}
-.social-share .share-button-area{}
-.social-share .share-button-area ul{}
-.social-share .share-button-area ul li{}
+.social-share{    width: 100%;
+    float: left;
+    display: block;}
+..social-share .total-share
+{display: inline-block;
+    padding: 10px 20px;
+    border-right: 1px solid;}
+.social-share .total-share .share-btn 
+{display: inline-block;
+    padding: 5px;}
+.social-share .share-btn {display: inline-block;
+    padding: 5px 10px;
+    margin-left: 8px;
+	border-left:1px solid grey;
+}
+.social-share .share-btn .jumlah-total 
+{
+	text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.social-share .share-btn .bawah-total
+{
+	margin: 10px 0 0;
+}
+.social-share .share-button-area
+{
+	display: inline-block;
+    float: none;
+    width: 77%;
+}
+.social-share .share-button-area ul
+{
+	width: 100%;
+    padding: 0;
+}
+.social-share .share-button-area ul li
+{
+	list-style: none;
+    padding: 5px 10px 5px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 10px;
+}
+.social-share .share-button-area ul li a{
+    color: white;
+    font-size: 18px;
+}
 .social-share .share-button-area ul li .count{}
+
+.social-share .button_more
+{background: whitesmoke;}
+.social-share .button_facebook
+{background:#3a579a;}
+.social-share .button_twitter
+{background: #00abf0;}
+.social-share .button_googleplus 
+{    background: #df4a32;}
+.social-share .button_pinterest 
+{    background: #cd1c1f;}
+.social-share .button_stumbleupon 
+{    background: #ea4b24;}
