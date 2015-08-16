@@ -122,3 +122,17 @@ background-color: transparent;
   margin-top: -2px;
   border-radius: 37%;
   }
+.diskusi
+{margin-top: 320px;
+    display: block;
+    float: left;
+    padding-bottom: 20px;
+    width: 100%;}
+.diskusi .btn-diskusi
+{width: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 4px;
+    color: inherit;}
