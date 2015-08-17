@@ -1,16 +1,4 @@
 .explore{}
-.explore .explore-atas
-{
-  text-align: center;
-  font-weight: 300;
-  font-size: 1.5em;
-  padding: 3em 0;
-  background-color: rgb(207, 207, 207);
-}
-.explore .explore-atas h1.judul
-{color: grey;
-  margin: 0;  font-weight: 300;
-}
 
 .explore-pre-menu{
   background-color: rgb(207, 207, 207);
@@ -32,16 +20,22 @@ nav.explore-menu ul li
   display: inline-block;
   padding: 10px 15px;
   margin: 0;
-
+box-shadow: none !important;
 }
 nav.explore-menu ul li:hover
 {
-margin-bottom: -9px;
-  zoom: 2;
-  margin-top: -9px;
+    margin: 0 20px;
 }
-nav.explore-menu ul li a{color: whitesmoke;}
-
+nav.explore-menu ul li a{
+  color: whitesmoke;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+  
+}
+nav.explore-menu ul li a i{
+vertical-align: middle;
+}
 .explore .explore-trending{background-color: white;}
 .explore .explore-terbaru{}
 .explore .explore-terbaru h1{color: rgb(255, 203, 0);}
