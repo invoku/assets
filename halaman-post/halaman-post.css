@@ -20,12 +20,17 @@ border: 1px solid #e5e5e5;
     margin: 20px 0;
     padding: 30px 15px;
 }
-
+.kotak span.judul.is_stuck {
+padding: 10px 0px 20px;
+background-color: white;
+border-bottom:1px solid;
+}
 .kotak span.judul {
 font-weight: 400;
     display: block;
     font-size: 26px;
     padding: 0 0 20px;
+    z-index: 900;
 }
 
 .kotak span.sub-judul {
