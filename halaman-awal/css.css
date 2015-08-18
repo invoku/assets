@@ -1,4 +1,10 @@
-
+.buku-list .slick-slide .slick-center img
+{
+    transform: scale(.95);
+}
+.buku-list .slick-slide img
+{transform: scale(.7);
+    box-shadow: 12px 8px 0px rgba(0, 0, 0, 0.6);}
 #halaman-awal-slider {
   position: relative;
   overflow: hidden;
@@ -281,16 +287,7 @@ background-color: rgb(92, 55, 72);
 .buku-list{float: left;
   height: 100%;
   width: 100%;
-  background-size: cover;
-  margin:15px;}
-.buku-list.buku1{background-image:url('./img/buku/1.png');}
-.buku-list.buku2{background-image:url('./img/buku/2.png');}
-.buku-list.buku3{background-image:url('./img/buku/3.png');}
-.buku-list.buku4{background-image:url('./img/buku/2.png');}
-.buku-list.buku5{background-image:url('./img/buku/3.png');}
-.buku-list.buku6{background-image:url('./img/buku/1.png');}
-.buku-list.buku7{background-image:url('./img/buku/2.png');}
-.buku-list.buku8{background-image:url('./img/buku/3.png');}
+  background-size: cover;}
 
 /*jelajah*/
 .jelajah
