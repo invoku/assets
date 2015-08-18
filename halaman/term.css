@@ -1,6 +1,6 @@
 .peraturan{}
 .peraturan .area-samping-kiri{
-background-color: rgb(237, 237, 237);
+    background-color: rgb(220, 220, 220);
   margin: 20px;
   padding: 15px;
   border-radius: 6px;
@@ -22,7 +22,13 @@ background-color: rgb(237, 237, 237);
 
 .wrap-tabs{
 background-color: orange;
-  box-shadow: 0 0 12px darkgrey;
+    box-shadow: 0 5px 8px rgba(80, 80, 80, 0.21);
+    position: fixed;
+    top: 48px;
+    z-index: 9000;
+}
+.wrap-tab-contents {
+    margin-top: 110px;
 }
 .wrap-tabs,
 .wrap-tab-contents {
@@ -52,8 +58,13 @@ background-color: orange;
 }
 
 .tab-contents { position: relative; }
-.area-samping-kiri ul{list-style: none;}
-.area-samping-kiri ul li{    padding: 8px 0px;}
+.area-samping-kiri ul{    padding: 0;}
+.area-samping-kiri ul li:last-child{border-bottom:none;}
+.area-samping-kiri ul li{    padding: 8px 0px;
+  list-style: none;
+    border-bottom: 1px solid #C1C1C1;
+    margin: 0;
+}
 .area-samping-kiri ul li a{font-size: 20px;
     text-decoration: none;
     color: inherit;}
