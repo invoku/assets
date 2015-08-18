@@ -1,0 +1,191 @@
+.tentang{}
+.tentang .tentang-header{
+  padding: 40px 0 100px 0;
+  text-align: center;
+  background: white url("https://cloud.githubusercontent.com/assets/11361401/9327177/d6bbeac6-4553-11e5-8cde-9f9e69c26e7a.pngg");
+  background-size: contain;
+
+  }
+.tentang .tentang-header img{}
+.tentang .tentang-header h1{  font-weight: 300;
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 8px;
+  color: grey;}
+.tentang .tentang-isi
+{
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 4px;
+} 
+.tentang .tentang-isi p
+{
+} 
+.tentang .tentang-misi
+{
+padding: 10px 0;
+  background-color: white;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 20px 0;
+  width: 100%;
+}
+.tentang .tentang-misi p{  padding: 10px 20px;}
+.tentang h1.misi-judul
+{
+  font-weight: 300;
+  margin-top: 26px;
+  display: inline;
+  margin-bottom: 0;
+  float: left;
+  margin-left: 20px;
+}
+.tentang span.kotak-besar
+{
+  width: 30px;
+  height: 30px;
+  margin: 30px 0 0 0;
+  display: inline-block;
+  float: left;
+  background: orange;
+}
+.tentang .hubungi-areakanan
+{
+  border-left: 1px solid rgb(215, 215, 215);
+  margin-left: -2px;
+  float: left;
+  width: 100%;
+}
+.tentang h2.stayin-judul
+{
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-left: 20px;
+  color: grey;
+}
+.tentang .stayin{padding-left: 20px;}
+.tentang .stayin-sub-judul{  
+float: left;
+  width: 100%;
+  padding: 15px 20px;
+  }
+.tentang .stayin-sosial{  }
+.tentang .hubungi-areakanan h1{ 
+  font-weight: 300;
+  display: inline;
+  margin-bottom: 0;
+  margin-top: 0;
+  float: left;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.tentang .hubungi-areakanan span.kotak-kecil{  
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  display: inline-block;
+  float: left;
+  background: orange;
+}
+.tentang .stayin-icon{  
+padding: 10px 15px;
+  border: none;
+  width: 40%;
+  margin-top: 6px;
+  margin-left: 2px;  border-radius: 4px;
+  color: white;
+  }
+.facebook-background-color{  background-color: rgb(0, 117, 168)!important; }
+.twitter-background-color{  background-color: rgb(0, 197, 255)!important;}
+.google-background-color{  background-color: rgb(255, 48, 48) !important;}
+.youtube-background-color{background-color: red !important;}
+
+.tentang .stayin-more{
+padding: 10px 15px;
+  border: none;
+  width: 40%;
+  margin-top: 6px;
+  margin-left: 2px;  border-radius: 4px;
+  color: white;
+}
+.tentang .stayin-more i{}
+
+.tentang .stayin-subscribe{}
+
+
+.wrap-tabs{
+}
+.wrap-tabs,
+.wrap-tab-contents {
+  width: 100% !important;
+  float: left;
+}
+
+.tabs .tab {
+  float: left;
+  padding: 5px;
+  margin: 15px 0 0 0;
+  color: grey;
+  font-size: 20px;
+}
+
+.tabs .tab:hover {
+  cursor: pointer;
+  border-bottom: 2px solid grey;
+  color: orange;
+}
+
+.tabs .tab-active,
+.tabs .tab-active:hover {
+  color: grey;
+  border-bottom: 2px solid #FFC40B;
+  font-weight: bold;
+}
+
+.tab-contents { position: relative; }
+
+.tentang form{font-size: 20px;
+    color: grey;}
+.tentang form textarea{
+	
+	margin: 12px 0px;
+    border: 2px solid orange;
+    padding: 5px 10px;
+    color: rgb(197, 197, 197);
+    height: 120px;
+    width: 90%;
+}
+.tentang form input.input-subscribe
+{
+	font-size: 26px;
+    border: 1px solid;
+    float: left;
+}
+.tentang form input.submit-subscribe
+{
+    font-size: 23px;
+    margin: 10px !important;
+    padding: 9px 15px;
+    float: left !important;
+}
+.tentang form input
+{
+	margin: 12px 0;
+    border: 2px solid orange;
+    padding: 5px 10px;
+    color: #C5C5C5;
+}
+.tentang form input[type="submit"]{border: none;
+    display: inline;
+    float: right;
+    margin: 0;}
+.footer{    background-color: #9A9A9A;
+    margin-top: 30px;}
+.footer .right{    float: right;}
+.footer .right ul{    float: right;}
+.footer .right ul li{    float: right;}
+.footer .right ul li a{    padding: 10px 15px;
+    text-decoration: none;
+    color: white;}
+.footer .left{padding: 15px;
+    color: white;}
