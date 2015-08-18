@@ -23,7 +23,7 @@ border: 1px solid #e5e5e5;
 .kotak span.judul.is_stuck {
 padding: 10px 0px 10px;
 background-color: white;
-border-bottom:1px solid;
+border-bottom:1px solid #D8D8D8;
 }
 .kotak span.judul {
 font-weight: 400;
@@ -193,6 +193,7 @@ list-style-type:disc;
 margin-left:10px;
 }
 /*pager */
+.blog-pager{margin: 1em 0 0 0; !important}
 .mbt-pager { border-top: 2px dashed #ddd; overflow:hidden; padding:0px;} 
 .mbt-pager li.next { float: right; padding:0px; background:none; margin:0px;} 
 .mbt-pager li.next a {text-align: right;padding-left: 24px; }
@@ -296,6 +297,7 @@ margin-top: 0em;
 padding-top: 0em;
 }
 #related-posts a{
+padding: 3px !important;
 border-right: 1px dotted #DDDDDD;
 color:#5D5D5D;
 }
@@ -312,7 +314,7 @@ background-color:#EDEDEF;
 
 /*=========NEW V2 =======================*/
 .item-header h1:first-child{
-font-weight:bold;
+font-weight:bold;    font-family: cursive;
 }
 .item-header h1{
   color: white;
@@ -560,6 +562,7 @@ margin: 0 0px 20px 0 !important;
 .yangsama{
  margin-top: 50px;
  background-color: #505050;
+padding-bottom: 15px;
 }
 .yangsama h2{
     font-weight: 400;
@@ -710,3 +713,5 @@ border-left: 1px solid rgba(255, 255, 255, 0.52);
 /* trigger for sticky*/
 .sticky_parent
 {float: left !important;}
+#showdiskusi
+{display:none;}
