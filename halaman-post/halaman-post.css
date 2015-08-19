@@ -192,6 +192,36 @@ font-size:11px;
 list-style-type:disc;
 margin-left:10px;
 }
+/*========== Rincian============ */
+.kotak .rincian-buku
+{text-align: left; text-indent: 0; padding: 0; margin: 0;}
+.kotak .rincian-buku table
+{width:100%;border:1px;}
+.kotak .rincian-buku table even{background:red }
+.kotak .rincian-buku td.rincian-judul
+{  width: 50px;}
+.kotak .rincian-buku td.rincian-judul span
+{font-weight:bold;: none;}
+.kotak .rincian-buku td.isi-rincian 
+{width:50%;border-width : 0;}
+
+.kotak .rincian-buku td.isi-rincian p
+{}
+
+.kotak .rincian-buku td.rincian-sampul-buku
+{width:276px;border-width : 0;}
+.kotak .rincian-buku .gambar-sampul-buku
+{ }
+  /*========== sinopsis ============ */
+.kotak .isi-sinopsis p
+{
+padding: 5px 15px 20px;
+}
+  /*========== download ============ */
+.kotak .isi-download
+{
+padding: 5px 15px 20px;
+}
 /*pager */
 .blog-pager{margin: 1em 0 0 0; !important}
 .mbt-pager { border-top: 2px dashed #ddd; overflow:hidden; padding:0px;} 
