@@ -199,19 +199,27 @@ margin-left:10px;
 {width:100%;border:1px;}
 .kotak .rincian-buku table even{background:red }
 .kotak .rincian-buku td.rincian-judul
-{  width: 50px;}
+{  width: 50px;    vertical-align: middle;}
 .kotak .rincian-buku td.rincian-judul span
 {font-weight:bold;: none;}
 .kotak .rincian-buku td.isi-rincian 
-{width:50%;border-width : 0;}
+{width:50%;border-width : 0;vertical-align: middle;}
 
 .kotak .rincian-buku td.isi-rincian p
-{}
-
+{     line-height: 2em;
+    padding-bottom: 0;
+    border-bottom: 2px dotted #E5E5E5;
+    margin: 0;
+}
 .kotak .rincian-buku td.rincian-sampul-buku
 {width:276px;border-width : 0;}
 .kotak .rincian-buku .gambar-sampul-buku
 { }
+.kotak .rincian-buku .gambar-sampul-buku img
+{box-shadow: 6px 6px 0px rgba(193, 193, 193, 0.41);
+    border: 1px solid #EAEAEA;
+	
+}
   /*========== sinopsis ============ */
 .kotak .isi-sinopsis p
 {
