@@ -90,6 +90,15 @@
 .traveling-border-color{border-color:#5fa2a1 !important; }
 .traveling-border-color-before::before{border-color:#5fa2a1 !important; }
 
+/*---------------------------FOR BUKU ---------------------------------*/
+
+.Buku-color{color:#B39568 !important; }
+.Buku-background-color{background-color:#B39568 !important; }
+.Buku-hover:hover{background-color:#B39568 !important; }
+.Buku-border-color{border-color:#B39568 !important; }
+.Buku-border-color-before::before{border-color:#B39568 !important; }
+.Buku-background-color-trans{background-color: rgba(179, 149, 104, 0.7) !important}
+
 /*for transparent*/
  .agama-background-color-trans{background-color:rgba(244, 211, 74, 0.7) !important; }
  .edukasi-background-color-trans{background-color:rgba(244, 142, 74, 0.7) !important;}
