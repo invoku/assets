@@ -1,6 +1,6 @@
-.buku-list .slick-slide .slick-center img
+.buku-list.slick-slide.slick-center img
 {
-    transform: scale(.95);
+    transform: scale(1.2);
 }
 .buku-list .slick-slide img
 {transform: scale(.7);
