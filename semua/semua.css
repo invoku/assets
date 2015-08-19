@@ -485,3 +485,35 @@ img.alignleft {display: inline; margin: 0px 20px 10px 0px;}
 .alignleft {float: left;}
 .alignright {float: right;}
 .post-footer-line-1{display:none;}
+
+/*for block screen*/
+.blockscreen
+{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.86);
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 9000;
+}
+.blockscreen .bs-content
+{
+    margin: auto;
+    float: none;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    top: 10%;	
+}
+.blockscreen .bs-content h1.bs-close
+{
+    text-align: right;
+    font-size: +4em;
+    font-weight: 300;
+    color: white;
+    margin: 20px;
+}
+.blockscreen .contribution{}
+.blockscreen .contribution .contri-small{}
+.blockscreen .contribution .contri-big{}
+.blockscreen .contribution .btn-menulis{}
