@@ -503,17 +503,43 @@ img.alignleft {display: inline; margin: 0px 20px 10px 0px;}
     position: relative;
     text-align: center;
     width: 50%;
-    top: 10%;	
+    top: 20%;	
 }
 .blockscreen .bs-content h1.bs-close
 {
-    text-align: right;
+    right: 0;
     font-size: +4em;
     font-weight: 300;
+    position: absolute;
     color: white;
-    margin: 20px;
+    margin: 0 20px;
+    top: 0;
 }
-.blockscreen .contribution{}
-.blockscreen .contribution .contri-small{}
-.blockscreen .contribution .contri-big{}
-.blockscreen .contribution .btn-menulis{}
+.blockscreen .contribution{
+	background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: left;
+    background-image: url("https://magicinthebackyard.files.wordpress.com/2013/05/just_write__by_factor___.jpeg");
+    background-size: cover;
+}
+.blockscreen .contribution .contri-small{display: block;
+    font-size: 40px;
+    color: wheat;}
+.blockscreen .contribution .contri-big{display: block;
+    font-size: 51px;
+    font-weight: bold;
+    color: wheat;
+    text-transform: capitalize;
+    margin-bottom: 25%;}
+.blockscreen .contribution .btn-menulis{
+	background-color: #FF8819;
+    border-radius: 6px;
+    border: none;
+    font-size: 26px;
+    padding: 10px 30px;
+    position: relative;
+    left: 75%;
+    color: white;
+    display: block;
+}
