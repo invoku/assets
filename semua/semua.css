@@ -491,7 +491,7 @@ img.alignleft {display: inline; margin: 0px 20px 10px 0px;}
 {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.86);
-    display: block;
+    display: none;
     height: 100%;
     width: 100%;
     z-index: 9000;
@@ -505,7 +505,7 @@ img.alignleft {display: inline; margin: 0px 20px 10px 0px;}
     width: 50%;
     top: 20%;	
 }
-.blockscreen .bs-content h1.bs-close
+.blockscreen .bs-content a h1.bs-close
 {
     right: 0;
     font-size: +4em;
