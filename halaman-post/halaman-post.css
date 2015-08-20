@@ -68,8 +68,6 @@ padding:15px 20px;
 }
 
 .kotak-isi-pendahuluan p {
-display:inline;
-line-height:0;
 font-size:16px;
 }
 
@@ -268,7 +266,7 @@ transition-property: background color; transition-duration: 0.4s; transition-tim
     font-size: 1.2em;
     padding: 0 !important;
     float: left;
-    font-weight: 300;
+    font-weight: 500;
                 }
 abbr[title]{    padding: 5px 6px;    border: none;}
 .post-title{
@@ -514,12 +512,12 @@ color: #464646;border-color: rgb(70, 70, 70);
   position: absolute;
 }
 .items-area-tengah .item-isi-judul span{
-color: cadetblue;
+color: white;
   padding: 10px;
 }
 .items-area-tengah .item-isi-judul{
   position: absolute;
-  z-index: 9000;
+  z-index: 900;
   width: 100%;
 }   
 .items-area-tengah{   
