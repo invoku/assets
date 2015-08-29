@@ -103,6 +103,7 @@
  .agama-background-color-trans{background-color:rgba(244, 211, 74, 0.7) !important; }
  .edukasi-background-color-trans{background-color:rgba(244, 142, 74, 0.7) !important;}
  .ekonomi-background-color-trans{background-color:rgba(235, 78, 63, 0.7) !important; }
+ .gayahidup-background-color-trans{background-color:rgba(255, 101, 192, 0.7) !important;}
  .hiburan-background-color-trans{background-color:rgba(234, 154, 159, 0.7) !important; }
  .hobi-background-color-trans{background-color:rgba(77, 212, 184, 0.7) !important; }
  .kehidupan-background-color-trans{background-color:rgba(213, 137, 213, 0.7) !important; }
@@ -110,7 +111,7 @@
  .komputer-background-color-trans{background-color:rgba(104, 185, 222, 0.7) !important; }
  .lezat-background-color-trans{background-color:rgba(183, 213, 87, 0.7) !important; }
  .sehat-background-color-trans{background-color:rgba(91, 216, 144, 0.7) !important; }
- .lezat-background-color-trans{background-color:rgba(183, 213, 87, 0.7) !important;}
+ .kendaraan-background-color-trans{background-color:rgba(155, 172, 195, 0.7) !important;}
  .pc-background-color-trans{background-color: rgba(104, 185, 222, 0.7) !important}
  .rumah-background-color-trans{background-color: rgba(126, 80, 126, 0.8) !important}
  .traveling-background-color-trans{background-color: rgba(95, 162, 161, 0.7) !important}
@@ -150,7 +151,7 @@
 .agama-bg-image-1600-gs-trans {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9292184/750854a6-439e-11e5-9446-d5df68c3fe06.jpg');}
 .edukasi-bg-image-1600-gs-trans {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9292171/731c18c6-439e-11e5-9822-80bce7ff9569.jpg');}
 .ekonomi-bg-image-1600-gs-trans {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9292172/7348ef72-439e-11e5-9c1a-2e50735185bf.jpg');}
-.gayahidup-bg-image-1600-gs-trans {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9292173/737560e8-439e-11e5-864f-53ef87e31794.jpg');}}
+.gayahidup-bg-image-1600-gs-trans {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9292173/737560e8-439e-11e5-864f-53ef87e31794.jpg');}
 .hiburan-bg-image-1600-gs-trans {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9292174/73a5032a-439e-11e5-8286-467130b3b6f7.jpg');}
 .hobi-bg-image-1600-gs-trans {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9292175/73d1e430-439e-11e5-91a5-483c659f0c51.jpg');}
 .kehidupan-bg-image-1600-gs-trans {background-image:url('https://cloud.githubusercontent.com/assets/11361401/9292176/7401b23c-439e-11e5-8ec8-42918ef465a7.jpg');}
