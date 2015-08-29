@@ -1,0 +1,164 @@
+/*font*/
+/* CSSTidy 1.5.2: Sat, 29 Aug 2015 04:06:38 +0000 */@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(http://fonts.gstatic.com/s/roboto/v15/0eC6fl06luXEYWpBSJvXCBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(http://fonts.gstatic.com/s/roboto/v15/Fl4y0QdOxyyTHEGMXX8kcRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(http://fonts.gstatic.com/s/roboto/v15/-L14Jk06m6pUHB-5mXQQnRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(http://fonts.gstatic.com/s/roboto/v15/I3S1wsgSg9YCurV6PUkTORJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(http://fonts.gstatic.com/s/roboto/v15/NYDWBdD4gIq26G5XYbHsFBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0102-0103,U+1EA0-1EF1,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(http://fonts.gstatic.com/s/roboto/v15/Pru33qjShpZSmG3z6VYwnRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'),local(Roboto-Light),url(http://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local(Roboto),local(Roboto-Regular),url(http://fonts.gstatic.com/s/roboto/v15/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local(Roboto),local(Roboto-Regular),url(http://fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local(Roboto),local(Roboto-Regular),url(http://fonts.gstatic.com/s/roboto/v15/-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local(Roboto),local(Roboto-Regular),url(http://fonts.gstatic.com/s/roboto/v15/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local(Roboto),local(Roboto-Regular),url(http://fonts.gstatic.com/s/roboto/v15/NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");unicode-range:U+0102-0103,U+1EA0-1EF1,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local(Roboto),local(Roboto-Regular),url(http://fonts.gstatic.com/s/roboto/v15/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local(Roboto),local(Roboto-Regular),url(http://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(http://fonts.gstatic.com/s/roboto/v15/ZLqKeelYbATG60EpZBSDyxJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(http://fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(http://fonts.gstatic.com/s/roboto/v15/rGvHdJnr2l75qb0YND9NyBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(http://fonts.gstatic.com/s/roboto/v15/mx9Uck6uB63VIKFYnEMXrRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(http://fonts.gstatic.com/s/roboto/v15/mbmhprMH69Zi6eEPBYVFhRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0102-0103,U+1EA0-1EF1,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(http://fonts.gstatic.com/s/roboto/v15/oOeFwZNlrTefzLYmlVV1UBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local(Roboto-Medium),url(http://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local(Roboto-Bold),url(http://fonts.gstatic.com/s/roboto/v15/77FXFjRbGzN4aCrSFhlh3hJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local(Roboto-Bold),url(http://fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHThJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local(Roboto-Bold),url(http://fonts.gstatic.com/s/roboto/v15/UX6i4JxQDm3fVTc1CPuwqhJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local(Roboto-Bold),url(http://fonts.gstatic.com/s/roboto/v15/jSN2CGVDbcVyCnfJfjSdfBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local(Roboto-Bold),url(http://fonts.gstatic.com/s/roboto/v15/PwZc-YbIL414wB9rB1IAPRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0102-0103,U+1EA0-1EF1,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local(Roboto-Bold),url(http://fonts.gstatic.com/s/roboto/v15/97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local(Roboto-Bold),url(http://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Slabo 27px';font-style:normal;font-weight:400;src:local('Slabo 27px'),local(Slabo27px-Regular),url(http://fonts.gstatic.com/s/slabo27px/v3/LfR9_S_HMdQ73mwIHBRxoSEAvth_LlrfE80CYdSH47w.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Slabo 27px';font-style:normal;font-weight:400;src:local('Slabo 27px'),local(Slabo27px-Regular),url(http://fonts.gstatic.com/s/slabo27px/v3/PuwvqkdbcqU-fCZ9Ed-b7fk_vArhqVIZ0nv9q090hN8.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}
+/* CSSTidy 1.5.2: Sat, 29 Aug 2015 04:11:07 +0000 */.posisi-tengah{float:none!important;margin:0 auto!important}
+.agama-color{color:#f4d34a!important}
+.agama-background-color{background-color:#f4d34a!important}
+.agama-hover:hover{background-color:#f4d34a!important}
+.agama-border-color{border-color:#f4d34a!important}
+.agama-border-color-before::before{border-color:#f4d34a!important}
+.edukasi-color{color:#f48e4a!important}
+.edukasi-background-color{background-color:#f48e4a!important}
+.edukasi-hover:hover{background-color:#f48e4a!important}
+.edukasi-border-color{border-color:#f48e4a!important}
+.edukasi-border-color-before::before{border-color:#f48e4a!important}
+.ekonomi-color{color:#eb4e3f!important}
+.ekonomi-background-color{background-color:#eb4e3f!important}
+.ekonomi-hover:hover{background-color:#eb4e3f!important}
+.ekonomi-border-color{border-color:#eb4e3f!important}
+.ekonomi-border-color-before::before{border-color:#eb4e3f!important}
+.hobi-color{color:#4dd4b8!important}
+.hobi-background-color{background-color:#4dd4b8!important}
+.hobi-hover:hover{background-color:#4dd4b8!important}
+.hobi-border-color{border-color:#4dd4b8!important}
+.hobi-border-color-before::before{border-color:#4dd4b8!important}
+.hiburan-color{color:#ea9a9f!important}
+.hiburan-background-color{background-color:#ea9a9f!important}
+.hiburan-hover:hover{background-color:#ea9a9f!important}
+.hiburan-border-color{border-color:#ea9a9f!important}
+.hiburan-border-color-before::before{border-color:#ea9a9f!important}
+.gayahidup-color{color:#ff65c0!important}
+.gayahidup-background-color{background-color:#ff65c0!important}
+.gayahidup-hover:hover{background-color:#ff65c0!important}
+.gayahidup-border-color{border-color:#ff65c0!important}
+.gayahidup-border-color-before::before{border-color:#ff65c0!important}
+.kehidupan-color{color:#d589d5!important}
+.kehidupan-background-color{background-color:#d589d5!important}
+.kehidupan-hover:hover{background-color:#d589d5!important}
+.kehidupan-border-color{border-color:#d589d5!important}
+.kehidupan-border-color-before::before{border-color:#d589d5!important}
+.kendaraan-color{color:#9bacc3!important}
+.kendaraan-background-color{background-color:#9bacc3!important}
+.kendaraan-hover:hover{background-color:#9bacc3!important}
+.kendaraan-border-color{border-color:#9bacc3!important}
+.kendaraan-border-color-before::before{border-color:#9bacc3!important}
+.kerja-color{color:#d4b184!important}
+.kerja-background-color{background-color:#d4b184!important}
+.kerja-hover:hover{background-color:#d4b184!important}
+.kerja-border-color{border-color:#d4b184!important}
+.kerja-border-color-before::before{border-color:#d4b184!important}
+.pc-color{color:#68b9de!important}
+.pc-background-color{background-color:#68b9de!important}
+.pc-hover:hover{background-color:#68b9de!important}
+.pc-border-color{border-color:#68b9de!important}
+.pc-border-color-before::before{border-color:#68b9de!important}
+.lezat-color{color:#b7d557!important}
+.lezat-background-color{background-color:#b7d557!important}
+.lezat-hover:hover{background-color:#b7d557!important}
+.lezat-border-color{border-color:#b7d557!important}
+.lezat-border-color-before::before{border-color:#b7d557!important}
+.sehat-color{color:#5bd890!important}
+.sehat-background-color{background-color:#5bd890!important}
+.sehat-hover:hover{background-color:#5bd890!important}
+.sehat-border-color{border-color:#5bd890!important}
+.sehat-border-color-before::before{border-color:#5bd890!important}
+.rumah-color{color:#7e507e!important}
+.rumah-background-color{background-color:#7e507e!important}
+.rumah-hover:hover{background-color:#7e507e!important}
+.rumah-border-color{border-color:#7e507e!important}
+.rumah-border-color-before::before{border-color:#7e507e!important}
+.traveling-color{color:#5fa2a1!important}
+.traveling-background-color{background-color:#5fa2a1!important}
+.traveling-hover:hover{background-color:#5fa2a1!important}
+.traveling-border-color{border-color:#5fa2a1!important}
+.traveling-border-color-before::before{border-color:#5fa2a1!important}
+.Buku-color{color:#B39568!important}
+.Buku-background-color{background-color:#B39568!important}
+.Buku-hover:hover{background-color:#B39568!important}
+.Buku-border-color{border-color:#B39568!important}
+.Buku-border-color-before::before{border-color:#B39568!important}
+.Buku-background-color-trans{background-color:rgba(179,149,104,0.7)!important}
+.agama-background-color-trans{background-color:rgba(244,211,74,0.7)!important}
+.edukasi-background-color-trans{background-color:rgba(244,142,74,0.7)!important}
+.ekonomi-background-color-trans{background-color:rgba(235,78,63,0.7)!important}
+.gayahidup-background-color-trans{background-color:rgba(255,101,192,0.7)!important}
+.hiburan-background-color-trans{background-color:rgba(234,154,159,0.7)!important}
+.hobi-background-color-trans{background-color:rgba(77,212,184,0.7)!important}
+.kehidupan-background-color-trans{background-color:rgba(213,137,213,0.7)!important}
+.kerja-background-color-trans{background-color:rgba(212,177,132,0.7)!important}
+.komputer-background-color-trans{background-color:rgba(104,185,222,0.7)!important}
+.lezat-background-color-trans{background-color:rgba(183,213,87,0.7)!important}
+.sehat-background-color-trans{background-color:rgba(91,216,144,0.7)!important}
+.kendaraan-background-color-trans{background-color:rgba(155,172,195,0.7)!important}
+.pc-background-color-trans{background-color:rgba(104,185,222,0.7)!important}
+.rumah-background-color-trans{background-color:rgba(126,80,126,0.8)!important}
+.traveling-background-color-trans{background-color:rgba(95,162,161,0.7)!important}
+.agama-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291853/e27a5b7c-438c-11e5-9cf2-aa66853f162c.png)}
+.edukasi-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291854/e332bfd2-438c-11e5-9872-644d52703498.png)}
+.ekonomi-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291855/e34acc94-438c-11e5-96ee-0ee7b5b74d5c.png)}
+.gayahidup-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291856/e37f3010-438c-11e5-8460-205efa96203e.png)}
+.hiburan-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291857/e3de0f9a-438c-11e5-9250-a3a797179d15.png)}
+.hobi-text-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291858/e3dee15e-438c-11e5-8f9b-d37f09f6bf10.png)}
+.kehidupan-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291859/e40370fa-438c-11e5-83d6-60f1c150a090.png)}
+.kendaraan-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291860/e40b5edc-438c-11e5-87a7-b9a0ccd209c1.png)}
+.kerja-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292055/df1c3e72-4397-11e5-8f1a-37e33837c340.png)}
+.sehat-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291866/e4f42ff4-438c-11e5-81b7-08b3111f1dbb.png)}
+.lezat-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291862/e43ecdda-438c-11e5-9287-e1540fdbaa1d.png)}
+.pc-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291863/e49526ee-438c-11e5-928b-f4b5a63f53e8.png)}
+.rumah-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291864/e4d3824a-438c-11e5-8f5b-787f3bee2707.png)}
+.traveling-bg-image-1600-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9291865/e4f3b54c-438c-11e5-858d-f8c80f5c57ba.png)}
+.agama-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292184/750854a6-439e-11e5-9446-d5df68c3fe06.jpg)}
+.edukasi-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292171/731c18c6-439e-11e5-9822-80bce7ff9569.jpg)}
+.ekonomi-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292172/7348ef72-439e-11e5-9c1a-2e50735185bf.jpg)}
+.gayahidup-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292173/737560e8-439e-11e5-864f-53ef87e31794.jpg)}
+.hiburan-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292174/73a5032a-439e-11e5-8286-467130b3b6f7.jpg)}
+.hobi-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292175/73d1e430-439e-11e5-91a5-483c659f0c51.jpg)}
+.kehidupan-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292176/7401b23c-439e-11e5-8ec8-42918ef465a7.jpg)}
+.kendaraan-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292179/746e6dbe-439e-11e5-8b70-13eeb35888c4.jpg)}
+.kerja-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292179/746e6dbe-439e-11e5-8b70-13eeb35888c4.jpg)}
+.sehat-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292182/74b3c134-439e-11e5-9f3a-bdafe1187495.jpg)}
+.lezat-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292178/7465da3c-439e-11e5-8912-3587f7e153de.jpg)}
+.pc-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292180/749dd054-439e-11e5-99ab-a5d0e0343fb2.jpg)}
+.rumah-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292181/74a47d46-439e-11e5-9326-f51a0e384367.jpg)}
+.traveling-bg-image-1600-gs-trans{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9292183/75064bde-439e-11e5-9a3b-e0f5b8d8d7df.jpg)}
+.Buku-agama-text-buku-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9356347/15d57416-4635-11e5-8ceb-8af0e606c385.png)}
+.Buku-anak-anak-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356346/15d0d424-4635-11e5-846d-3d8eba9b67a4.png ')}
+.Buku-anak-muda-dan-dewasa-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356349/1648d528-4635-11e5-9d14-ce8dd2e58688.png ')}
+.Buku-biografi-text-buku-300{background-image:url(' https://cloud.githubusercontent.com/assets/11361401/9356350/166a38bc-4635-11e5-97bd-38bfd734314b.png')}
+.Buku-bisnis-dan-ekonomi-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356348/162b30ae-4635-11e5-9ee3-097e6eb4d905.png ')}
+.Buku-edukasi-text-buku-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9356351/1676df40-4635-11e5-9389-0aebab8c67b2.png)}
+.Buku-fiksi-dan-literatur-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356358/2892f998-4635-11e5-82f5-fc41de0b82e6.png ')}
+.Buku-gaya-hidup-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356359/28bcfe46-4635-11e5-8cce-63bddd3f35ba.png ')}
+.Buku-hiburan-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357596/bbaaeebe-463c-11e5-93be-4fe3d58793e3.png ')}
+.Buku-hukum-dan-politik-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357486/17893caa-463c-11e5-80e2-76deffddbbab.png ')}
+.Buku-ilmiah-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356355/281fc0ea-4635-11e5-9056-c8cdac20f289.png ')}
+.Buku-keluarga-dan-orang-tua-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356357/286d38b6-4635-11e5-9477-e61964242f96.png ')}
+.Buku-kerajinan-dan-hobi-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356366/31886c5e-4635-11e5-91ff-6ee18289d5d8.png ')}
+.Buku-kesehatan-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356368/31cecc76-4635-11e5-866f-ca9da475bae2.png ')}
+.Buku-komputer-dan-teknologi-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356367/31c02388-4635-11e5-89ff-020227b20cab.png ')}
+.Buku-memasak-dan-makanan-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356363/30fa177e-4635-11e5-8687-3a2e44e6825d.png ')}
+.Buku-kehidupan-dan-kebahagiaan-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356356/284e4bf4-4635-11e5-98ca-8a68e91c2d15.png ')}
+.Buku-percintaan-text-buku-300{background-image:url(' https://cloud.githubusercontent.com/assets/11361401/9356365/3174f58e-4635-11e5-931c-69cbe83c7f55.png')}
+.Buku-perjalanan-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357504/2947f2f6-463c-11e5-8b26-cce9b8da7a03.png ')}
+.Buku-petualangan-dan-olahraga-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356364/314eba04-4635-11e5-828c-85fd483f74dd.png ')}
+.Buku-referensi-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357485/17871c2c-463c-11e5-83af-068de96e64a0.png ')}
+.Buku-rumah-dan-taman-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357487/17abef84-463c-11e5-9125-c1be5fbe2eb6.png ')}
+.Buku-sains-dan-alam-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357492/1eb1ba16-463c-11e5-92ed-cad413dbd125.png ')}
+.Buku-sejarah-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357496/21820912-463c-11e5-97a6-682e5d4dd784.png ')}
+.Buku-seni-dan-ide-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357497/21c355c0-463c-11e5-95e2-2f42481faf80.png ')}
+.Buku-sosial-dan-budaya-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357502/28425554-463c-11e5-86ae-afe177a6a07b.png ')}
+.Buku-teknik-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357505/295e04a6-463c-11e5-9c12-455984c66052.png ')}
+.majalah-dan-tabloid-text-buku-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9357503/28fa7b7a-463c-11e5-9f98-b3d07893cb18.png ')}
+.agama-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9356347/15d57416-4635-11e5-8ceb-8af0e606c385.png)}
+.edukasi-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9356351/1676df40-4635-11e5-9389-0aebab8c67b2.png)}
+.ekonomi-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9356348/162b30ae-4635-11e5-9ee3-097e6eb4d905.png)}
+.gayahidup-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9356359/28bcfe46-4635-11e5-8cce-63bddd3f35ba.png)}
+.hiburan-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9357596/bbaaeebe-463c-11e5-93be-4fe3d58793e3.png)}
+.hobi-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9356366/31886c5e-4635-11e5-91ff-6ee18289d5d8.png)}
+.kehidupan-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9356356/284e4bf4-4635-11e5-98ca-8a68e91c2d15.png)}
+.kendaraan-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9359029/e957d29e-4643-11e5-8933-d98622577ff8.png)}
+.kerja-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9359239/1c292640-4645-11e5-909e-412f88969c9f.png)}
+.sehat-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9356368/31cecc76-4635-11e5-866f-ca9da475bae2.png)}
+.lezat-text-300{background-image:url('https://cloud.githubusercontent.com/assets/11361401/9356363/30fa177e-4635-11e5-8687-3a2e44e6825d.png ')}
+.pc-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9356367/31c02388-4635-11e5-89ff-020227b20cab.png)}
+.rumah-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9357487/17abef84-463c-11e5-9125-c1be5fbe2eb6.png)}
+.traveling-text-300{background-image:url(https://cloud.githubusercontent.com/assets/11361401/9357504/2947f2f6-463c-11e5-8b26-cce9b8da7a03.png)}
