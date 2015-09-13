@@ -528,17 +528,12 @@ width: 100%;
 .items-area-tengah .item-isi{
   background-color: white;
   float: left;
-  padding: 20px 20px 0;
   border-radius: 0 0 8px 8px;
   z-index: 90;
   border-top: 0 !important;
-  border: 2px solid rgb(190, 199, 215);
   position: relative;
   margin-top: 300px;
   }
-  
-  
-  
 .items-area-kanan{}
 
 /**popular post ==========*/
